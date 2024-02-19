@@ -35,7 +35,6 @@ export default {
 <style lang="scss" scoped>
 .home {
   max-width: 600px;
-  margin: 0 auto;
 }
 .wrap {
   padding: 10px;

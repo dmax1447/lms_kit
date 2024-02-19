@@ -1,0 +1,1938 @@
+{
+  "tinymce": {
+    "plugins": {
+      "formula": {
+        "modalTitle": ""
+      }
+    }
+  },
+  "calendar": {
+    "more": "More {count}",
+    "types": {
+      "year": "Year",
+      "month": "Month",
+      "week": "Week",
+      "day": "Day",
+      "today": "Today"
+    },
+    "popup": {
+      "button": {
+        "show-all": "Show all"
+      },
+      "events": "Events",
+      "details": "Details"
+    }
+  },
+  "dropzone": {
+    "download-image": "Download"
+  },
+  "layout": {
+    "card": {
+      "actions": {
+        "add": "Add",
+        "add_category": "Add category",
+        "add_field": "Add field",
+        "add_student": "Add student",
+        "add_teacher": "Add teacher",
+        "call": "Call",
+        "cancel": "Cancell",
+        "download": "Download",
+        "download_results": "Download results",
+        "download_user_list": "",
+        "view": " Review",
+        "question_preview": "",
+        "edit": "Edit",
+        "clone": "Clone",
+        "send_message": "Send a message",
+        "save": "Save",
+        "trash": "Delete",
+        "to_lesson": "Go to lessons",
+        "print": "Print",
+        "generate": "Generate",
+        "reset_pwd": "Password recovery",
+        "search-mobile": "Search in messages",
+        "no-notifs-mobile": "Notification settings",
+        "trial-test": "",
+        "archive": "",
+        "unarchive": ""
+      },
+      "attributes_groups": {
+        "general": "Basic",
+        "data": "Data",
+        "employees": "Employees"
+      },
+      "attributes_values": {
+        "boolean": {
+          "true": "Yes",
+          "false": "No"
+        }
+      }
+    },
+    "modal": {
+      "actions": {
+        "save": "Save",
+        "add": "Add",
+        "delete": "Delete",
+        "apply": "Apply",
+        "cancel": "Cancel",
+        "reset": "",
+        "update": "Update",
+        "create": "Create",
+        "edit": "Edit",
+        "clone": "Clone",
+        "change": "",
+        "go": "",
+        "yes": "",
+        "no": "",
+        "save-current-filters": "Save current filters",
+        "yes-ok": ""
+      },
+      "titles": {
+        "assign-study-group": "Assign a group",
+        "assign-course": "Assign a course",
+        "assign-attribute": "Password setting",
+        "clone-accept": "Duplicate course",
+        "change-question-type": "",
+        "change-answer-type": "",
+        "create-attribute": "Field creating",
+        "create-category": "Category creating",
+        "create-subcategory": "",
+        "update-category": "",
+        "update-subcategory": "",
+        "exam-scoring": "",
+        "update-attribute": "Field setting",
+        "create-attribute-group": "Category creating",
+        "edit-attribute-group": "Category settings",
+        "my-filters": "My filters",
+        "setting-filters": "Filter settings",
+        "description": "Description",
+        "enabled-columns": "Installed fields",
+        "available-columns": "Available fields",
+        "ticket_edit": "",
+        "participant_add": "",
+        "ticket-number": "",
+        "add-student-to-course": "Add student to course",
+        "destroy": "Delete element",
+        "tab-change": "",
+        "create-event": "",
+        "edit-event": "",
+        "end-test": ""
+      },
+      "misc": {
+        "delete_confirmation": "Confirm deleting? Action can’t be canceled",
+        "links": {
+          "without-filter": "Unfiltered",
+          "all-columns": "All fields",
+          "visible-columns": "Visible",
+          "invisible-columns": "Invisible"
+        }
+      },
+      "label": {
+        "show-custom": "Additional fields",
+        "input-filter-name": "Enter filter name",
+        "question_n": "",
+        "question_add": ""
+      },
+      "confirmation": {
+        "clone-accept": "Are you sure you want to duplicate the course?",
+        "change-question-type": "",
+        "change-answer-type": "",
+        "portfolio-remove": "Are you sure you want to delete work?",
+        "portfolio-remove-header": "Delete work",
+        "question-remove": "Are you sure you want to delete question?",
+        "question-remove-header": "Delete question",
+        "categories-remove": "",
+        "categories-remove-header": "",
+        "subcategories-remove": "",
+        "subcategories-remove-header": "",
+        "course-student-remove-header": "Delete course",
+        "course-student-remove": "Are you sure you want to delete this course for this student?",
+        "data-save": "",
+        "end-test": ""
+      }
+    },
+    "search": {
+      "placeholder": "Search"
+    },
+    "table": {
+      "header": {
+        "filter": "Filter",
+        "not-selected": "Not chosen",
+        "condition": "0 conditions | {count} condition | {count} conditions | {count} conditions",
+        "sort": "Sort by"
+      },
+      "subheader": {
+        "questions-in-category": ""
+      },
+      "cells": {
+        "birthdate": {
+          "years": "0 years | {count} year | {count} of year | {count} years"
+        }
+      },
+      "sidebar": {
+        "filters": "Filters",
+        "without-filter": "Unfiltered"
+      },
+      "actions": {
+        "create": "Create",
+        "create-question": "",
+        "category": "Category",
+        "subcategory": "Subcategory",
+        "question": "Question"
+      },
+      "filter_predicates": {
+        "cont": "Contains",
+        "not_cont": "",
+        "cont_any": "",
+        "eq": "Equal",
+        "not_eq": "",
+        "start": "",
+        "end": "",
+        "lt": "",
+        "gt": "",
+        "gteq": "",
+        "lteq": ""
+      },
+      "empty": {
+        "categories": "",
+        "subcategories": "",
+        "questions": "Создайте вопросы",
+        "quiz-config": "",
+        "event": "",
+        "result": ""
+      },
+      "filter": {
+        "filters": "Filters",
+        "apply-filter": "Apply filter"
+      }
+    },
+    "course": {
+      "about": "About the course",
+      "actions": {
+        "to-course": "Go back to the main page",
+        "next-lesson": "Next lecture",
+        "next-quiz": "Next quiz",
+        "next-assignment": "Next assignment",
+        "next-video": "Next video",
+        "next-webinar": "Next webinar",
+        "previous-lesson": "Previous lecture",
+        "previous-quiz": "Previous quiz",
+        "previous-assignment": "Previous assignment",
+        "previous-video": "Previous video",
+        "previous-webinar": "Previous webinar"
+      },
+      "assignments": {
+        "start-submission": "Open submission",
+        "send-submission": "Send submission",
+        "edit-submission": "Edit submission",
+        "empty-submission": "No submission was sent yet",
+        "grade": "Your grade",
+        "grade-not-set": "Not set",
+        "submission": "Submission",
+        "attachments": "Attachments",
+        "no-submission-comments": "No submission comments",
+        "load-more-comments": "Load more",
+        "submission-comments": "Comments",
+        "enter-comment": "Comment text",
+        "send-comment": "Send"
+      },
+      "complete": "Complete",
+      "completed-percent": "{count}%  Completed",
+      "paid-course": "Available for purchase",
+      "completed-course": "Completed course",
+      "free-course": "Free course",
+      "get-more-info": "Get more information",
+      "start-learning": "Start learning",
+      "go-on-studying": "Go on studying",
+      "go-to-course": "Go to course",
+      "course-item-empty": "Unfortunately, lesson is not completed yet",
+      "guide": "Course program",
+      "lessons": "0 lessons | {count} lesson | {count} lessons | {count} lessons",
+      "lesson-completed": "lessons",
+      "list-empty": "List is empty",
+      "no-data": "No data",
+      "no-speciality": "Speciality not specified",
+      "notes": "Notes",
+      "practice": "Practical training",
+      "teacher": "Teachers",
+      "curator": "Curators",
+      "student": "Classmates",
+      "quiz-item-empty": "Unfortunately, test is not attached yet",
+      "quiz": {
+        "questions_list": "",
+        "not_retakeable": "Warning! You can pass Quiz only once",
+        "non_accessible_without_warn": "",
+        "quiz_starts_at": "",
+        "questions_in_quiz": "",
+        "duration": "",
+        "quiz_available": "",
+        "attempt": "",
+        "free_movement": "",
+        "okay": "",
+        "testing": "",
+        "days": "",
+        "hours": "",
+        "minutes": "",
+        "seconds": "",
+        "start_quiz": "",
+        "attempt_from_to": "",
+        "ask_your_tutor": "",
+        "tutor": "",
+        "minutes_short": "",
+        "hours_short": "",
+        "not_accessible": "",
+        "processing": "Processing",
+        "end-reading": "",
+        "pass-quiz": "Start a test",
+        "reading-before": "",
+        "reading-time": "",
+        "you-read-text": "",
+        "question": "Question",
+        "request-help": "Ask question",
+        "send-answer": "Submit answer",
+        "back": "",
+        "skip": "",
+        "title": "Teст",
+        "time-on-test": "Time to pass test",
+        "time-expired": "Time’s up!",
+        "try-again": "Try again",
+        "end-test": "",
+        "result": " Test results",
+        "time-event": "Time to pass",
+        "is_retakeable": "",
+        "number_of_retakes": "",
+        "max_points": "",
+        "questions_count": "",
+        "result-text": "You’ve gained {points} from {total points}. Your grade is {grade name}",
+        "min": "minutes",
+        "reading-speed": "Reading speed",
+        "spm": "symbols/min | symbol/min | symbols/min",
+        "audio-note": "Listen to audio file and choose the correct option",
+        "field-placeholder": "Drag answer here",
+        "matching-groups-title": "Matching groups",
+        "pairs-title": "Matching pairs",
+        "sequence-title": "",
+        "detailed-title": "",
+        "yes": "",
+        "no": ""
+      },
+      "titles": {
+        "author": "author",
+        "additional-materials": "Additional materials",
+        "course": "Course",
+        "courses": {
+          "all": "All courses",
+          "my": "My courses",
+          "completed": "Completed",
+          "current": "Current",
+          "favorites": "Favorites",
+          "online": "Study courses",
+          "popular": "Popular courses",
+          "resent-courses": "Recent courses"
+        },
+        "lesson": "Lesson",
+        "section": "Unit",
+        "to-complete": "Till the end of the current course",
+        "subheadings": {
+          "assignment": "Complete the task",
+          "quiz": "Take the test",
+          "video": "Check out the video"
+        }
+      },
+      "until": "Until"
+    }
+  },
+  "multiselect": {
+    "base": {
+      "choose": "",
+      "deselect": "Press enter to deselect",
+      "no-result": "No results were found for your search",
+      "empty-list": "List is empty",
+      "placeholder": "Search",
+      "select": "Press enter to choose",
+      "selected": "Chosen"
+    },
+    "study_group": {
+      "placeholder": ""
+    },
+    "study_area": {
+      "reset_option": ""
+    },
+    "speciality": {
+      "reset_option": ""
+    },
+    "speciality_profile": {
+      "reset_option": ""
+    },
+    "speciality-profile": {
+      "reset_option": ""
+    },
+    "stream": {
+      "reset_option": ""
+    },
+    "study_level": {
+      "reset_option": ""
+    },
+    "study_form": {
+      "reset_option": ""
+    },
+    "author": {
+      "reset_option": ""
+    },
+    "branch": {
+      "reset_option": ""
+    },
+    "branch_in_profile": {
+      "reset_option": ""
+    },
+    "faculty": {
+      "reset_option": ""
+    },
+    "category": {
+      "placeholder": ""
+    },
+    "subcategory": {
+      "placeholder": ""
+    },
+    "type_field": {
+      "placeholder": ""
+    },
+    "library": {
+      "placeholder": ""
+    },
+    "module_course": {
+      "placeholder": ""
+    },
+    "module_user": {
+      "placeholder": ""
+    },
+    "type": {
+      "placeholder": ""
+    },
+    "filters": {
+      "placeholder": ""
+    },
+    "forms": {
+      "placeholder": ""
+    },
+    "multiple": {
+      "placeholder": ""
+    },
+    "columns": {
+      "placeholder": ""
+    },
+    "states": {
+      "placeholder": ""
+    },
+    "video_source": {
+      "placeholder": ""
+    },
+    "cover_video": {
+      "reset_option": ""
+    },
+    "choose": {
+      "placeholder": ""
+    },
+    "course": {
+      "placeholder": "",
+      "reset_option": ""
+    },
+    "language": {
+      "placeholder": ""
+    },
+    "questions": {
+      "all_questions": "",
+      "my_questions": "",
+      "all_active_questions": "",
+      "archive_questions": ""
+    }
+  },
+  "datepicker": {
+    "calendar": {
+      "gmt": "",
+      "week-day": "",
+      "week-day-without-number": "",
+      "popup-title": "",
+      "title": "",
+      "title-day": ""
+    },
+    "mask": {
+      "date": "",
+      "datetime": "",
+      "time": "",
+      "range": ""
+    },
+    "date": "DD.MM.YYYY",
+    "datetime": "DD.MM.YYYY, HH:mm",
+    "create-update-datetime": "",
+    "duration": "HH mm",
+    "duration-dynamic": "",
+    "placeholder": "",
+    "base": {
+      "h": "hours",
+      "m": "minutes"
+    }
+  },
+  "attributes": {
+    "assignment": {
+      "created_at": "",
+      "updated_at": "",
+      "attachment_ids": "",
+      "name": "",
+      "text": ""
+    },
+    "attachments": {
+      "no-file": "No file",
+      "choose-file": "Choose file"
+    },
+    "boolean": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "educational-plans": {
+      "name": "Name",
+      "education_level": "Level of education",
+      "education_form": "Form of study",
+      "direction": "Direction",
+      "profile": "Major",
+      "subdivision": "Subdivision",
+      "qualification": "Qualification on graduation",
+      "actuality": "Relevance"
+    },
+    "exams": {
+      "discipline": "",
+      "start_at": "",
+      "grade": "",
+      "no-grade": ""
+    },
+    "branch": {
+      "address": "Address",
+      "city": "City",
+      "created_at": "Created at",
+      "updated_at": "",
+      "head": "Supervisor",
+      "name": "Name",
+      "phone_number": "Telephone"
+    },
+    "book": {
+      "author": "Author",
+      "name": "Name",
+      "publishing_house": "Publishing house",
+      "publishing_year": "Publication year",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "building": {
+      "created_at": "Created at",
+      "name": "Name"
+    },
+    "multiple-choice": {
+      "no-chosen": "Not chosen"
+    },
+    "event_kind": {
+      "list": {
+        "colloquium": "Colloquium",
+        "exam": "Exam",
+        "excursion": "Excursion",
+        "laboratory_work": "Laboratory work",
+        "lecture": "Lecture",
+        "lesson": "Lesson",
+        "master_class": "Master class",
+        "practice": "Practice",
+        "seminar": "Seminar",
+        "test": "Test"
+      }
+    },
+    "video": {
+      "title": "Name",
+      "description": "Description",
+      "undefined": "Video is missing on the server",
+      "null": "Video is missing on the server",
+      "url": "Link",
+      "state": "Status",
+      "original_file_id": "Original video",
+      "variants": "Uploaded video",
+      "source": "Source",
+      "video_source": "Source type",
+      "created_at": "Created at",
+      "updated_at": "Updated at",
+      "internal": "Internal",
+      "thumbnail": "Cover",
+      "youtube": "Youtube",
+      "waiting": "Awaiting conversion",
+      "processing": "Converting",
+      "failed": "Conversion error",
+      "processed": "Converted",
+      "load_file": "Upload file",
+      "playback-rate": "Playback rate",
+      "video-quality": "Quality"
+    },
+    "video-selector": {
+      "no-file": "No cover"
+    },
+    "single-choice": {
+      "no-chosen": "Not chosen",
+      "no-chosen-any": ""
+    },
+    "study-plans": {
+      "name": "Name",
+      "title": "Title",
+      "created_at": "Created at",
+      "updated_at": "Updated at",
+      "index": "Index",
+      "control-form": "Form of control",
+      "control-form-exams": "Exam",
+      "control-form-zachet": "Credit",
+      "control-form-zachet-v-oc": "Credit with grade",
+      "control-form-cr": "Review work",
+      "zet": "Зет",
+      "zet-form-expert": "Expert",
+      "fact": "fact",
+      "academ-hour": "Academic hours",
+      "academ-hour-expert": "Expert",
+      "academ-hour-plan": "Plan",
+      "academ-hour-kontr-hourse": "Attendance clock",
+      "academ-hour-sr": "Individual work",
+      "academ-hour-control": "Control",
+      "first-course": "1 year of study",
+      "first-semestr": "1 semester",
+      "first-semestr-zet": "Zet",
+      "first-semestr-sum": "Total",
+      "first-semestr-lek": "Lectures",
+      "first-semestr-lab": "Laboratory works",
+      "first-semestr-pr": "Practice",
+      "first-semestr-konst": "Personal tuition",
+      "first-semestr-cp": "Individual work",
+      "first-semestr-control": "Control"
+    },
+    "classroom": {
+      "name": "Name",
+      "created_at": "Created at"
+    },
+    "course": {
+      "add_course": "Add",
+      "author": "Author",
+      "author_role_name": "Lecturer",
+      "created_at": "Created at",
+      "cover": "Cover",
+      "cover_video": "Video cover",
+      "chair": "Department",
+      "description": "Description",
+      "form": "Form",
+      "to_publish": "",
+      "is_published": "Publish",
+      "to_promote": "",
+      "is_promoted": "Add to favorite",
+      "item_name": "Name",
+      "module_name": "Subject name",
+      "name": "Name",
+      "profile": "Major",
+      "rpd": "Discipline work program",
+      "branch_in_profile": "Branch",
+      "branch": "",
+      "study_area": "Study area",
+      "speciality": "Speciality",
+      "speciality-profile": "Speciality profile",
+      "updated_at": "Created at",
+      "version": "Version",
+      "start_date": "Start date",
+      "end_date": "End date"
+    },
+    "course_user": {
+      "add_user": "Add user",
+      "name": "Full name",
+      "full_name": "Full name",
+      "middle_name": "Patronymic",
+      "last_name": "Surname",
+      "completeness_percent": "Course progress",
+      "created_at": "Course receipt date",
+      "count_users": "users",
+      "user_list": ""
+    },
+    "department": {
+      "name": "Name",
+      "faculty": "Faculty",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "dictionaries": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "dictionary_item": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "educational-programs": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "recruitment-plans": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "preparing-programs": {
+      "title": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "practices": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "categories": {
+      "name": "Name",
+      "author": "Author",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "subcategories": {
+      "name": "",
+      "author": "",
+      "created_at": "",
+      "updated_at": ""
+    },
+    "questions": {
+      "name": "Question text",
+      "answers": "Answer options",
+      "author": "Author",
+      "kind": "Kind of question",
+      "question_type": "",
+      "category": "Category name",
+      "subcategory": "Subcategory name",
+      "created_at": "Created at",
+      "short-text": {
+        "placeholder": {
+          "input": "",
+          "checkbox": "",
+          "button": ""
+        }
+      },
+      "updated_at": "Updated at",
+      "list": {
+        "matching_groups": "Matching groups",
+        "pairs": "Matching pairs",
+        "short_text": "Short answer",
+        "single_choice": "",
+        "detailed": "",
+        "sequence": "",
+        "multiple_choice": ""
+      },
+      "types": {
+        "formula": "",
+        "audio": "",
+        "text": "",
+        "photo": ""
+      }
+    },
+    "attestations": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "workloads": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "processes": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "entrance-tests": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "finance": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "products": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "communications": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "tasks": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "discipline_group": {
+      "name": "Name",
+      "education": "Education",
+      "education_level": "Education level",
+      "education_form": "Form of study",
+      "education_profile": "Major",
+      "education_code": "Direction code",
+      "department": "Department",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "document_template_category": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "document_template": {
+      "name": "Name",
+      "attachment_id": "File",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "employee": {
+      "birthdate": "Birth date",
+      "created_at": "Created at",
+      "email": "E-mail",
+      "first_name": "Name",
+      "full_name": "Full name",
+      "gender": "Gender",
+      "last_name": "Surname",
+      "middle_name": "Patronymic",
+      "updated_at": "Updated at",
+      "roles": "Role",
+      "is_archived": ""
+    },
+    "lesson": {
+      "created_at": "Created at",
+      "classroom": "Classroom",
+      "course": "Course",
+      "name": "",
+      "kind": "Lesson kind",
+      "date_start": "",
+      "starts_at": "",
+      "ends_at": ""
+    },
+    "lessons_event": {
+      "name": "Event name",
+      "starts_at": "Event starts at",
+      "ends_at": "",
+      "kind": "Event kind",
+      "speciality": "Speciality",
+      "speciality_profile": "Speciality profile",
+      "discipline": "Discipline",
+      "course": "Course",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "lessons_event_ticket": {
+      "number": "№",
+      "name": "Ticket title",
+      "count": "Count of questions",
+      "author": "Author",
+      "created_at": "Created at"
+    },
+    "lessons_event_teacher": {
+      "full_name": "",
+      "name": "",
+      "faculty": "Faculty",
+      "department": "Department",
+      "position": "Position",
+      "study_group": ""
+    },
+    "lessons_event_student": {
+      "full_name": "",
+      "name": "",
+      "faculty": "Faculty",
+      "department": "Department",
+      "position": "Position",
+      "study_group": ""
+    },
+    "lessons_event_attendance": {
+      "kinds": {
+        "missed": "",
+        "attended": "",
+        "sick_leave": "",
+        "missed_for_good_reason": ""
+      },
+      "no_data": "",
+      "no_comment_data": "",
+      "columns": {
+        "student": "",
+        "ticket": "",
+        "kind": "",
+        "grade": "",
+        "comment": ""
+      }
+    },
+    "faculty": {
+      "name": "Name",
+      "branch": "Branch",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "mail_template": {
+      "subject": "Subject",
+      "language": "Language",
+      "languages": {
+        "ru": "Russian",
+        "en": "English"
+      },
+      "kind": "Type",
+      "layout": "",
+      "created_at": "Creation date",
+      "updated_at": "Update date",
+      "list": {
+        "reset_password": "Password reset mail",
+        "sign_up": "Sign up mail",
+        "layout": "Layout"
+      }
+    },
+    "role": {
+      "description": "Description",
+      "name": "Name",
+      "group": "Group",
+      "created_at": "Created at",
+      "updated_at": "Updated at",
+      "list": {
+        "Employee": "Employee",
+        "Student": "Student"
+      }
+    },
+    "speciality": {
+      "name": "Name",
+      "created_at": "Created at"
+    },
+    "speciality_profile": {
+      "name": "Name",
+      "created_at": "Created at"
+    },
+    "speciality-profile": {
+      "name": "",
+      "created_at": ""
+    },
+    "stream": {
+      "created_at": "Created at",
+      "name": "Name",
+      "updated_at": "Updated at"
+    },
+    "portfolio": {
+      "name": "Name",
+      "description": "Description",
+      "discipline": "Discipline",
+      "kind": "",
+      "points": "",
+      "created_at": "Created at",
+      "options": {
+        "project": "",
+        "abstract": "",
+        "essay": "",
+        "course_work": "",
+        "graduate_work": "",
+        "article": "",
+        "dissertation": "",
+        "study_work": "",
+        "research_work": "",
+        "personal_achievement": "",
+        "recommendations": ""
+      }
+    },
+    "stream_study_group": {
+      "ended_on": "Graduation date",
+      "name": "Name",
+      "started_on": "Starting date",
+      "study_period": "Period of study",
+      "study_create": "Created at"
+    },
+    "quiz": {
+      "name": "Test title",
+      "description": "Description",
+      "duration": "Time to pass",
+      "is_retakeable": "Is retakeable",
+      "branch_in_profile": "Branch",
+      "branch": "",
+      "kind": "Quizz type",
+      "kinds_list": {
+        "reading_speed": "Reading speed",
+        "classic": "Classic"
+      },
+      "study_area": "Study area",
+      "speciality": "Speciality",
+      "speciality-profile": "Speciality profile",
+      "points_for": "Points for",
+      "h": "ч",
+      "m": "м",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "quiz_type_modal": {
+      "title": "Question type",
+      "placeholder": "Choose the type of question",
+      "type_pair": "Choose the type of pair",
+      "single_choice": "Single choice",
+      "multiple_choice": "Multiple choice",
+      "number": "Number",
+      "short_text": "Text",
+      "matching_groups": "Group of accordance",
+      "pairs": "Pair of accordance",
+      "detailed": "",
+      "sequence": "",
+      "text": "Text / Formula",
+      "photo": "Photo",
+      "video": "Video",
+      "audio": "Audio"
+    },
+    "material": {
+      "name": "Name",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "material_category": {
+      "name": "Name",
+      "branch": "Branch",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "student_study_group": {
+      "ended_on": "Graduation date",
+      "name": "Name",
+      "started_on": "Starting date",
+      "study_period": "Period of study"
+    },
+    "student_control_book": {
+      "discipline": "Discipline",
+      "points": "Points",
+      "num_of_hours": "Num of hours",
+      "teacher": "Teacher",
+      "date": "Date"
+    },
+    "student_attendance": {
+      "discipline": "Discipline",
+      "status": "Status",
+      "teacher": "Teacher",
+      "date": "Date"
+    },
+    "student_files": {
+      "attachment": "File",
+      "size": "Size",
+      "date": "Date"
+    },
+    "study_group_student": {
+      "full_name": "Full name",
+      "study_period": "Period of study",
+      "add_student": ""
+    },
+    "study_form": {
+      "name": "Name"
+    },
+    "study_group": {
+      "created_at": "Created at",
+      "updated_at": "",
+      "name": "Name",
+      "branch_in_profile": "Branch",
+      "branch": "Branch",
+      "study_area": "Study area",
+      "speciality": "Speciality",
+      "speciality-profile": "Speciality profile",
+      "speciality_profile": "Speciality profile",
+      "stream": "Stream",
+      "study_level": "Study level",
+      "study_form": "Study form"
+    },
+    "study_level": {
+      "name": "Name"
+    },
+    "study_area": {
+      "name": "Name",
+      "created_at": "Created at"
+    },
+    "quiz_results": {
+      "last_name": "",
+      "first_name": "",
+      "middle_name": "",
+      "points": "",
+      "total_questions": "",
+      "answered_questions_count": "",
+      "created_at": "",
+      "updated_at": "",
+      "new_try": "",
+      "to_events_page": "",
+      "show_results": "",
+      "questions_count": "",
+      "time_spend": "",
+      "attempts_from_to": "",
+      "points_from_to": "",
+      "points_amount": "",
+      "correct_answers_from_to": "",
+      "correct_answers": "",
+      "result": "",
+      "test_ended": "",
+      "preliminary_result": "",
+      "preliminary_result_info": ""
+    },
+    "quiz_contents": {
+      "name": "Content"
+    },
+    "quiz_result": {
+      "full_name": "",
+      "points": "",
+      "statistic": "",
+      "from": "",
+      "finished_at": "",
+      "reading_speed": "",
+      "statistic_tooltip": ""
+    },
+    "teacher": {
+      "birthdate": "Birth date",
+      "created_at": "Created at",
+      "email": "E-mail",
+      "first_name": "Name",
+      "full_name": "Full name",
+      "gender": "Gender",
+      "last_name": "Surname",
+      "middle_name": "Patronymic",
+      "updated_at": "Updated at"
+    },
+    "user": {
+      "birthdate": "Birth date",
+      "created_at": "Created at",
+      "email": "E-mail",
+      "first_name": "Name",
+      "full_name": "Full name",
+      "gender": "Gender",
+      "last_name": "Surname",
+      "middle_name": "Patronymic",
+      "updated_at": "Updated at",
+      "roles": "Role",
+      "no_name": "",
+      "is_archived": "",
+      "student-number": "",
+      "employee-number": "",
+      "users-modal": {
+        "student-number": "",
+        "employee-number": "",
+        "name": {
+          "course": "",
+          "study_group": "",
+          "stream": "",
+          "lessons_event": "",
+          "branch": "",
+          "faculty": "",
+          "book": "",
+          "quiz": "",
+          "video": "",
+          "assignment": "",
+          "material": "",
+          "department": "",
+          "weblink": "",
+          "user": "",
+          "employee": "",
+          "student": "",
+          "dictionary_item": ""
+        }
+      }
+    },
+    "student": {
+      "birthdate": "Birth date",
+      "created_at": "Created at",
+      "email": "E-mail",
+      "first_name": "Name",
+      "full_name": "Full name",
+      "gender": "Gender",
+      "last_name": "Surname",
+      "middle_name": "Patronymic",
+      "updated_at": "Updated at",
+      "roles": "Role",
+      "no_name": "",
+      "is_archived": "",
+      "student-number": "",
+      "employee-number": "",
+      "users-modal": {
+        "student-number": "",
+        "employee-number": "",
+        "name": {
+          "course": "",
+          "study_group": "",
+          "stream": "",
+          "lessons_event": "",
+          "branch": "",
+          "faculty": "",
+          "book": "",
+          "quiz": "",
+          "video": "",
+          "assignment": "",
+          "material": "",
+          "department": "",
+          "weblink": "",
+          "user": "",
+          "employee": "",
+          "student": "",
+          "dictionary_item": ""
+        }
+      }
+    },
+    "webinar": {
+      "name": "Name",
+      "room_url": "Link to the webinar",
+      "description": "Description",
+      "duration": "Duration",
+      "starting_at": "Starting date",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "webinar_user": {
+      "add_user": "Add user",
+      "name": "Full name"
+    },
+    "weblink": {
+      "name": "Name",
+      "url": "Link",
+      "description": "Description",
+      "created_at": "Created at",
+      "updated_at": "Updated at"
+    },
+    "student_course": {
+      "name": "Course name",
+      "completeness_percent": "",
+      "start_date": "Start date",
+      "end_date": "End date"
+    }
+  },
+  "associations": {
+    "mail_template": {
+      "templates": "",
+      "tabs": {
+        "html_body": "",
+        "text_body": ""
+      }
+    },
+    "members": {
+      "teachers": "",
+      "students": ""
+    },
+    "assignment": {
+      "contents": ""
+    },
+    "lessons_event": {
+      "tickets": "Tickets",
+      "members": "Members",
+      "questions": "",
+      "rpd": "DWP",
+      "activity": "Activity",
+      "attendance": "",
+      "scores_attendance": "Scores and attendance",
+      "parameters": "Parameters",
+      "add_question": "",
+      "question_category_name": "Question category name",
+      "question_category_parameter": "Question category parameters",
+      "questions_count": ""
+    },
+    "rights": {
+      "access": {
+        "read": "Reading",
+        "read_my": "",
+        "edit": "Editing",
+        "create": "Creating",
+        "manage": "Full access",
+        "update": "Updating",
+        "update_my": "",
+        "destroy": "Deleting",
+        "destroy_my": "",
+        "archive": "Archiving"
+      },
+      "all": "Common",
+      "assignments": "",
+      "attachments": "File",
+      "attendances": "",
+      "bpm": "BPM",
+      "books": "Books",
+      "buildings": "Buildings",
+      "categories": "Categories",
+      "classrooms": "Classrooms",
+      "column_sets": "Columns",
+      "course_users": "",
+      "contractor": "",
+      "comments": "Comments",
+      "communications": "Communications",
+      "competences": "Competencies",
+      "courses": "Courses",
+      "custom_attributes": "Custom attributes",
+      "custom_attributes_groups": "Custom attribute groups",
+      "departments": "Departments",
+      "dictionaries": "Directories",
+      "dictionary_items": "Directory entries",
+      "diplomas": "",
+      "disciplines": "Subjects",
+      "document_templates": "Document templates",
+      "documents": "Documents",
+      "educational_programs": "Educational programs",
+      "employees": "Employee",
+      "enrollee_profiles": "",
+      "enrollees": "",
+      "entrance_tests": "Entrance tests",
+      "exam_tickets": "",
+      "exam_questions": "",
+      "exam_results": "",
+      "external_services": "",
+      "faculties": "Faculties",
+      "feedbacks": "",
+      "filters": "Filters",
+      "files": "",
+      "finance": "Finance",
+      "further_education_groups": "Extended education groups\n",
+      "grades": "Grades",
+      "invoices": "",
+      "lessons": "",
+      "materials": "Materials",
+      "mmis_import_files": "",
+      "news": "",
+      "newsletters": "",
+      "org_structure": "Organizing structure",
+      "quizzes": "Tests",
+      "quiz_gradescales": "Test grades",
+      "quiz_results": "Test results",
+      "questions": "Questions",
+      "payments": "",
+      "phone_calls": "",
+      "preparing_programs": "DWP",
+      "processes": "Processes",
+      "products": "Products",
+      "program": "",
+      "recruitment_plans": "Recruitment plans",
+      "reports": "",
+      "roles": "Roles",
+      "salaries": "",
+      "specialities": "Specialities",
+      "speciality_profiles": "Speciality profiles",
+      "students": "Students",
+      "students_study_groups": "",
+      "study_areas": "Subject matters",
+      "study_forms": "Forms of study",
+      "study_groups": "Study groups",
+      "study_levels": "Study levels",
+      "study_materials": "Study materials",
+      "study_plans": "Study plans",
+      "streams": "Streams",
+      "tasks": "Tasks",
+      "task_trackers": "",
+      "traffics": "",
+      "videos": "Video",
+      "webinars": "Webinars",
+      "weblinks": "Internet resources",
+      "wikis": "",
+      "workloads": "Workloads",
+      "users": "",
+      "portfolio_items": "",
+      "mail_templates": "",
+      "mmis/import_files": "MMIS"
+    },
+    "role": {
+      "rights": "Access permissions"
+    },
+    "quiz_results": {
+      "preview": ""
+    },
+    "discipline_group": {
+      "work_plan": "Discipline work plan",
+      "competences": "Competencies"
+    },
+    "dictionaries": {
+      "dictionary-settings": "Attributes Adding"
+    },
+    "branch": {
+      "buildings": "Buildings",
+      "study_areas": "Subject matters"
+    },
+    "building": {
+      "classrooms": "Classrooms"
+    },
+    "course": {
+      "content": "Content",
+      "student": "Students",
+      "curator": "Supervisors",
+      "teacher": "Lecturers",
+      "work_programs": "Work programs",
+      "study_materials": "Учебные Materials",
+      "test": "Test",
+      "jobs": "Tasks",
+      "params": "Characteristics",
+      "add-module-item-desc": " Add a lecture, test or video, click the 'add' button above",
+      "fields": {
+        "type_content": "Сontent type",
+        "header": "Header",
+        "subheader": "Subheader",
+        "video_source": "Source",
+        "assignment": "Assignment",
+        "available_period": "Availability period",
+        "files": "Files",
+        "library_test": "Test from the library",
+        "library_video": "Library video",
+        "library_webinar": "",
+        "rating_scale": "Rating scale",
+        "save_template": "Save as template",
+        "score": "Point",
+        "video_preview": "Video preview"
+      },
+      "period_modal": {
+        "chose_period": "Specify availability period",
+        "started_at": "Starting date of the period",
+        "ended_at": "End of the period"
+      },
+      "select": {
+        "theme": "Subject",
+        "lesson": "Lesson",
+        "lecture": "Lecture",
+        "video": "Video",
+        "webinar": "",
+        "test": "Test",
+        "assignment": ""
+      },
+      "button": {
+        "add_file": "Add File"
+      },
+      "type_course": {
+        "theme": "Subject",
+        "section": "Unit",
+        "lecture": "Lecture"
+      },
+      "item_types": {
+        "themes": "Subjects",
+        "lessons": "Lessons",
+        "quizzes": "Assessment activities"
+      },
+      "period_title": {
+        "always_available": "Always available"
+      },
+      "course_items_hint": {
+        "quiz": "Go to quiz",
+        "assignment": "Go to assignment",
+        "webinar": "Go to webinar"
+      }
+    },
+    "user": {
+      "documents": "Documents",
+      "files": "Files",
+      "gradebook": "Grade book",
+      "portfolio": "Portfolio",
+      "courses": "Courses",
+      "student_attendance": "Attendance",
+      "student_control_book": "Control book",
+      "study_groups": "Groups",
+      "tasks": "Tasks"
+    },
+    "student_control_book": {
+      "disciplines": "Disciplines",
+      "course_work": "Course work",
+      "practice": "Practice",
+      "gia": "GIA"
+    },
+    "student_attendances": {
+      "all_classes": "All classes",
+      "missed": "Missed"
+    },
+    "portfolio": {
+      "study_works": "Study works",
+      "nir": "Research work",
+      "personal_progress": "Personal progress",
+      "replies_and_recomendations": "Replies and recomendations"
+    },
+    "study_area": {
+      "specialities": "Specialities"
+    },
+    "speciality": {
+      "speciality-profiles": "Speciality profiles"
+    },
+    "study_group": {
+      "students": "Students"
+    },
+    "stream": {
+      "study_groups": "Study group"
+    },
+    "educational-plans": {
+      "study-plans": "Plan",
+      "disciplines": "Subjects",
+      "schedule": "Schedule",
+      "chart": "Timetable",
+      "competition": " Competence",
+      "load": "Load",
+      "groups": "Groups",
+      "params": "Characteristics"
+    },
+    "questions": {
+      "questions": "Question"
+    },
+    "quiz": {
+      "contents": "Content",
+      "preview": "Review",
+      "results": "",
+      "text": "",
+      "history": "Activity history",
+      "group_accordance_description": "",
+      "answer_text": "",
+      "manual_check": "",
+      "answer_options": "",
+      "matches": "",
+      "match": "",
+      "group": "",
+      "left_pair": "",
+      "right_pair": "",
+      "answer_option": "",
+      "quiz-preview": {
+        "order-title": "Question {order}"
+      },
+      "quiz-results": {
+        "correct-answers-number": "",
+        "correct-answer-number-type": "",
+        "correct-answer-text-type": "",
+        "correct-label": "",
+        "answer-user": ""
+      },
+      "form": {
+        "point-label": "Points for {points}",
+        "all-point": "Common point",
+        "add-option": "Add answer option",
+        "add-question": "Add question",
+        "add-pair": "Add pair",
+        "save-text": "",
+        "question-description": "Notes to question",
+        "question-title": "Question",
+        "answer": "Answer option",
+        "answer-multiple": "",
+        "answer-number": "",
+        "answer-text": "",
+        "group": "",
+        "points": "Points",
+        "general_points": "",
+        "description": "Description",
+        "time-event": "Time to pass tests",
+        "load-file": "Load audio file",
+        "remove-file-header": "Remove file?",
+        "remove-file-text": "Are you sure you want to remove this file?",
+        "type-accordance": "Type of accordance",
+        "add-image": "",
+        "add-audio": "",
+        "upload-image": "",
+        "upload-audio": ""
+      },
+      "only-speed-reading": ""
+    },
+    "video": {
+      "viewing": "Review"
+    },
+    "webinar": {
+      "stream": "Stream",
+      "admin": "Administrators ",
+      "speaker": "Speakers",
+      "viewer": "Audience",
+      "not-started": "",
+      "start-time": "",
+      "webinar-expired": ""
+    }
+  },
+  "pages": {
+    "result": {
+      "test-result": ""
+    },
+    "studio-materials-categories": {
+      "title": "Question bank"
+    },
+    "studio-materials-categories-questions": {
+      "title": "Question bank"
+    },
+    "studio-materials-questions": {
+      "title": ""
+    },
+    "studio-materials-questions-id-edit": {
+      "title": ""
+    },
+    "studio-materials-questions-new": {
+      "title": ""
+    },
+    "studio-webinars-id-edit": {
+      "title": "Editing live streaming"
+    },
+    "studio-webinars-new": {
+      "title": "Creating live streaming"
+    },
+    "validation": {
+      "not_required": "This field is not required",
+      "required": "This field is required",
+      "required_id": "This field is required",
+      "required_selection": "",
+      "required_if": "This field is required",
+      "email": "Email is incorrect",
+      "requiredRange": "This field is required",
+      "password": "Password doesn't match",
+      "dateRange": "Incorrect date format",
+      "date": "Incorrect date format",
+      "time": "Incorrect time format",
+      "dateTime": "Incorrect date and/or time format",
+      "max": "Exceeded the limit on the number of characters",
+      "notInList": "The value is non-unique",
+      "nonUnique": "The value is non-unique",
+      "numeric": "This field must only contain alphabetic characters"
+    },
+    "subservices": {
+      "rector": {
+        "events": {
+          "title": ""
+        }
+      },
+      "testing": {
+        "title": "",
+        "quiz-config-list": {
+          "title": ""
+        },
+        "event": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge-questions-new": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge-questions-id-edit": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge-quiz-config-id-edit": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge-quiz-config-new": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge_teacher-questions-new": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge_teacher-questions-id-edit": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge_teacher-quiz-config-id-edit": {
+          "title": ""
+        },
+        "subservices-rector-residual_knowledge_teacher-quiz-config-new": {
+          "title": ""
+        },
+        "datepicker": {
+          "calendar": {
+            "gmt": "",
+            "week-day": "",
+            "week-day-without-number": "",
+            "popup-title": "",
+            "title": "",
+            "title-day": ""
+          },
+          "mask": {
+            "date": "",
+            "datetime": "",
+            "time": "",
+            "duration": "",
+            "range": ""
+          },
+          "date": "",
+          "range": "",
+          "create-update-datetime": "",
+          "datetime": "",
+          "time": "",
+          "duration": "",
+          "duration-dynamic": "",
+          "placeholder": "",
+          "base": {
+            "h": "",
+            "m": ""
+          }
+        },
+        "modal": {
+          "actions": {
+            "cancel": "",
+            "save": "",
+            "clone": "",
+            "delete": ""
+          },
+          "titles": {
+            "edit-slot": "",
+            "category-name": "",
+            "clone-tests": "",
+            "delete-tests": ""
+          },
+          "confirmation": {
+            "clone-tests": "",
+            "delete-tests": ""
+          }
+        },
+        "attributes": {
+          "quiz-config": {
+            "title": "",
+            "description": "",
+            "duration": "",
+            "is_retakeable": "",
+            "show_detailed_result": "",
+            "free_moving_between_questions": "",
+            "display_option": "",
+            "show_right_answer": "",
+            "not_show_right_answer": "",
+            "h": "",
+            "m": "",
+            "created_at": "",
+            "updated_at": "",
+            "number_retries": "",
+            "number_questions": "",
+            "number_points": "",
+            "preview": "",
+            "category_description_text": "",
+            "subcategory_description_text": "",
+            "author": ""
+          },
+          "categories": {
+            "created_at": "",
+            "updated_at": "",
+            "author": "",
+            "name": ""
+          },
+          "subcategories": {
+            "name": "",
+            "author": "",
+            "created_at": "",
+            "updated_at": ""
+          },
+          "questions": {
+            "name": "",
+            "answers": "",
+            "author": "",
+            "kind": "",
+            "question_type": "",
+            "category": "",
+            "subcategory": "",
+            "created_at": "",
+            "short-text": {
+              "placeholder": {
+                "input": "",
+                "checkbox": "",
+                "button": ""
+              }
+            },
+            "quiz_type_modal": {
+              "title": "",
+              "placeholder": "",
+              "type_pair": "",
+              "single_choice": "",
+              "multiple_choice": "",
+              "number": "",
+              "short_text": "",
+              "matching_groups": "",
+              "pairs": "",
+              "text": "",
+              "photo": "",
+              "video": "",
+              "audio": ""
+            },
+            "updated_at": "",
+            "list": {
+              "matching_groups": "",
+              "pairs": "",
+              "short_text": "",
+              "single_choice": "",
+              "sequence": "",
+              "detailed": "",
+              "multiple_choice": ""
+            },
+            "types": {
+              "audio": "",
+              "text": "",
+              "photo": "",
+              "formula": ""
+            }
+          },
+          "events": {
+            "date": "",
+            "started_on": "",
+            "ended_on": "",
+            "discipline": "",
+            "place": "",
+            "test": "",
+            "groups": ""
+          },
+          "result": {
+            "quiz_instance_title": "",
+            "discipline": "",
+            "full_name": "",
+            "group": "",
+            "faculty": "",
+            "course": "",
+            "total_questions": "",
+            "answered_questions_count": "",
+            "correct_answers_count": "",
+            "date_passage": "",
+            "points": "",
+            "attempt_number": "",
+            "time_spent": "",
+            "result_as_percentage": "",
+            "finished_at": "",
+            "created_at_gteq": "",
+            "created_at_lteq": ""
+          }
+        },
+        "associations": {
+          "quiz-config": {
+            "tab-title": "",
+            "tab-preview": "",
+            "add-button": "",
+            "slot-title": "",
+            "question-counter": "",
+            "points-counter": "",
+            "question-name": "",
+            "question-type": "",
+            "category": "",
+            "subcategory": "",
+            "question-title": "",
+            "question-count": "",
+            "points-count": "",
+            "subcategories": "",
+            "subcategories-all-trigger": "",
+            "questions-all-trigger": "",
+            "no-result": "",
+            "type": "",
+            "questions": ""
+          },
+          "questions": {
+            "questions": ""
+          },
+          "quiz-trial": {
+            "question": "",
+            "question-list": {
+              "matching_groups": "",
+              "pairs": "",
+              "short_text": "",
+              "single_choice": "",
+              "multiple_choice": "",
+              "detailed": "",
+              "sequence": ""
+            }
+          }
+        },
+        "actions": {
+          "subcategories": {
+            "create-subcategories": "",
+            "deletion-confirm": {
+              "subcategories-header": "",
+              "subcategories-text": ""
+            }
+          },
+          "categories": {
+            "create-categories": "",
+            "deletion-confirm": {
+              "categories-header": "",
+              "categories-text": ""
+            }
+          },
+          "quiz-config": {
+            "create-quiz-config": "",
+            "deletion-confirm": {
+              "quiz-config-header": "",
+              "quiz-config-text": ""
+            }
+          },
+          "questions": {
+            "deletion-confirm": {
+              "questions-header": "",
+              "questions-text": "",
+              "categories-header": "",
+              "categories-text": "",
+              "subcategories-header": "",
+              "subcategories-text": "",
+              "student-header": "",
+              "student-text": "",
+              "group-header": "",
+              "group-text": "",
+              "stream-header": "",
+              "stream-text": "",
+              "curator-header": "",
+              "curator-text": "",
+              "teacher-header": "",
+              "teacher-text": "",
+              "speaker-header": "",
+              "speaker-text": "",
+              "admin-header": "",
+              "admin-text": "",
+              "viewer-header": "",
+              "viewer-text": ""
+            },
+            "duplicate-confirm": {
+              "questions-header": "",
+              "questions-text": "",
+              "course-header": "",
+              "course-text": ""
+            }
+          },
+          "duplicate": "",
+          "delete": "",
+          "edit": "",
+          "trash": "",
+          "archive": "",
+          "unarchive": ""
+        },
+        "table": {
+          "actions": {
+            "create-event-config": "",
+            "create-quiz-config": "",
+            "create-question": "",
+            "duplicate-confirm": {
+              "questions-header": "",
+              "questions-text": ""
+            },
+            "category": "",
+            "subcategory": "",
+            "question": "",
+            "archive": {
+              "categories": {
+                "question-header": "",
+                "question-text": ""
+              },
+              "subcategories": {
+                "question-header": "",
+                "question-text": ""
+              },
+              "questions": {
+                "question-header": "",
+                "question-text": ""
+              }
+            },
+            "unarchive": {
+              "categories": {
+                "question-header": "",
+                "question-text": ""
+              },
+              "subcategories": {
+                "question-header": "",
+                "question-text": ""
+              },
+              "questions": {
+                "question-header": "",
+                "question-text": ""
+              }
+            },
+            "show-filters":""
+          }
+        },
+        "layout": {
+          "table": {
+            "empty": ""
+          }
+        }
+      },
+      "tests": {
+        "title": "Тесты",
+        "empty": "Тестирований (мероприятий) на данный момент не назначено/нет"
+      }
+    }
+  },
+  "toasts": {
+    "quizzes": {
+      "forbidden": "You cannot take more than one test at a time",
+      "answered": "Answer to this question has already been sent",
+      "finished": "Time for the test is over",
+      "is empty": "",
+      "init_error": "Initialization failure",
+      "error_limit_chars": ""
+    }
+  }
+}

@@ -15,6 +15,11 @@ const routes = [
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
+  {
+    path: '/table',
+    name: 'table',
+    component: () => import(/* webpackChunkName: "about" */ '../views/TableView.vue')
+  },
 ]
 
 const router = new VueRouter({

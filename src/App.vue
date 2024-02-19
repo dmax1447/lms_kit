@@ -2,7 +2,7 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/table">Table</router-link>
     </nav>
     <router-view/>
   </div>
@@ -37,14 +37,13 @@ export default {
 }
 
 nav {
-  padding: 30px;
+  margin-bottom: 0;
 
   a {
-    font-weight: bold;
-    color: #2c3e50;
-
+    text-decoration: none;
     &.router-link-exact-active {
-      color: #42b983;
+      font-weight: 700;
+
     }
   }
 }

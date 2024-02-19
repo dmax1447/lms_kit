@@ -1,0 +1,2523 @@
+{
+  "categories": {
+    "title": "Банк лекций"
+  },
+  "quiz-config": {
+    "title": "Тестирование"
+  },
+  "result": {
+    "title": "Результаты"
+  },
+  "events": {
+    "title": {
+      "admission-entrance_test_teacher": "ВВИ",
+      "default": "Мероприятия"
+    }
+  },
+
+  "tinymce": {
+    "plugins": {
+      "formula": {
+        "modalTitle": "Редактор формул"
+      }
+    }
+  },
+  "filters": {
+    "name": "Название курса",
+    "category": "Категория",
+    "subcategory": "Подкатегория",
+    "type": "Тип",
+    "course_language": "Язык",
+    "cover": "Обложка",
+    "is_published": "Опубликовано",
+    "status": "Статус",
+    "author": "Автор",
+    "education_level": "Уровень образования",
+    "subdivisions": "Подразделения",
+    "specialities": "Специальность",
+    "specializations": "Специализация",
+    "created_date": "Дата создания",
+    "updated_date": "Дата обновления",
+    "finished_date": "Дата окончания",
+    "disciplines": "Привязанные дисциплины"
+  },
+  "calendar": {
+    "more": "Ещё {count}",
+    "types": {
+      "year": "Год",
+      "month": "Месяц",
+      "week": "Неделя",
+      "day": "День",
+      "today": "Сегодня"
+    },
+    "popup": {
+      "button": {
+        "show-all": "Посмотреть все"
+      },
+      "events": "События",
+      "details": "Детали"
+    }
+  },
+  "dropzone": {
+    "download-image": "Загрузить"
+  },
+  "layout": {
+    "card": {
+      "actions": {
+        "add": "Добавить",
+        "add_category": "Добавить категорию",
+        "add_field": "Добавить поле",
+        "add_new_section": "Добавить новый раздел",
+        "add_student": "Добавить студента",
+        "add_teacher": "Добавить преподавателя",
+        "call": "Позвонить",
+        "cancel": "Отменить",
+        "download": "Скачать",
+        "download_results": "Выгрузить результаты",
+        "download_user_list": "Выгрузить список студентов",
+        "view": "Просмотреть",
+        "question_preview": "Предварительный просмотр вопроса",
+        "edit": "Редактировать",
+        "clone": "Дублировать",
+        "send_message": "Отправить сообщение",
+        "save": "Сохранить",
+        "trash": "Удалить",
+        "to_lesson": "Перейти к мероприятию",
+        "print": "Печать",
+        "generate": "Сгенерировать",
+        "reset_pwd": "Сбросить пароль",
+        "search-mobile": "Поиск в сообщениях",
+        "no-notifs-mobile": "Отключить уведомления",
+        "trial-test": "Пройти тест",
+        "archive": "Архивировать",
+        "unarchive": "Разархивировать",
+        "publish": "Опубликовать",
+        "edit_params": "Настроить параметры курса",
+        "edit_content": "Настроить содержимое курса",
+        "enable_edit_course": "Перейти к редактированию",
+        "save_published_course": "Внести изменения в курс"
+      },
+      "attributes_groups": {
+        "general": "Основные",
+        "data": "Данные",
+        "employees": "Сотрудники"
+      },
+      "attributes_values": {
+        "boolean": {
+          "true": "Да",
+          "false": "Нет"
+        }
+      }
+    },
+    "modal": {
+      "actions": {
+        "save": "Сохранить",
+        "add": "Добавить",
+        "delete": "Удалить",
+        "apply": "Применить",
+        "cancel": "Отменить",
+        "reset": "Отмена",
+        "update": "Обновить",
+        "create": "Создать",
+        "edit": "Редактировать",
+        "clone": "Дублировать",
+        "change": "Изменить",
+        "archive": "Архивировать",
+        "unarchive": "Разархивировать",
+        "exit": "Выйти",
+        "go": "Перейти",
+        "yes": "Да",
+        "no": "Нет",
+        "save-current-filters": "Сохранить текущие фильтры",
+        "yes-ok": "Да, хорошо",
+        "go-without-save": "Перейти без сохранения"
+      },
+      "titles": {
+        "exit-confirm": "Выйти без сохранения",
+        "assign-study-group": "Привязать группу",
+        "assign-course": "Привязать курс",
+        "assign-attribute": "Видимость колонок",
+        "clone-accept": "Дублировать курс",
+        "change-question-type": "Изменение типа вопроса",
+        "change-answer-type": "Изменение типа ответа",
+        "create-attribute": "Создание поля",
+        "create-category": "Создать категорию",
+        "create-subcategory": "Создать подкатегорию",
+        "update-category": "Редактировать категорию",
+        "update-subcategory": "Редактировать подкатегорию",
+        "exam-scoring": "Выставление оценки",
+        "update-attribute": "Настройка поля",
+        "create-attribute-group": "Создание категории",
+        "edit-attribute-group": "Настройки категории",
+        "my-filters": "Мои фильтры",
+        "setting-filters": "Настройка фильтров",
+        "description": "Описание",
+        "enabled-columns": "Включенные колонки",
+        "available-columns": "Доступные колонки",
+        "ticket_edit": "Редактирование билета",
+        "participant_add": "Добавить участника",
+        "ticket-number": "Билет № {count}",
+        "add-student-to-course": "Добавить студента на курс",
+        "destroy": "Удаление элемента",
+        "tab-change": "Сохранить изменения",
+        "create-event": "Создание мероприятия",
+        "edit-event": "Изменить мероприятие",
+        "end-test": "Завершение тестирования",
+        "redirect-to-other-page": "Переход на другую страницу"
+      },
+      "misc": {
+        "delete_confirmation": "Подтвердите удаление? Действие нельзя будет отменить.",
+        "links": {
+          "without-filter": "Без фильтра",
+          "all-columns": "Все поля",
+          "visible-columns": "Видимые",
+          "invisible-columns": "Скрытые"
+        }
+      },
+      "label": {
+        "show-custom": "Дополнительные поля",
+        "input-filter-name": "Введите название фильтра",
+        "question_n": "Вопрос №",
+        "question_add": "Добавить вопрос"
+      },
+      "confirmation": {
+        "change-tab-without-save": "Вы внесли изменения в курсе. При переходе на другую страницу все несохраненные данные будут утеряны.",
+        "exit-confirm": "Вы уверены, что хотите выйти со страницы? Все несохраненные данные будут утеряны.",
+        "clone-accept": "Вы точно хотите дублировать курс?",
+        "change-question-type": "При изменении типа вопроса данные не будут сохранены. Изменить тип вопроса?",
+        "change-answer-type": "При изменении типа ответа данные не будут сохранены. Изменить тип ответа?",
+        "portfolio-remove": "Вы уверены, что хотите удалить работу?",
+        "portfolio-remove-header": "Удаление работы",
+        "lecture-remove": "Вы уверены, что хотите удалить лекцию?",
+        "lecture-remove-header": "Удаление лекции",
+        "categories-remove": "Вы уверены, что хотите удалить категорию <b>{name}</b>? После удаления её нельзя будет восстановить.",
+        "categories-remove-header": "Удаление категории",
+        "categories-archive": "После архивации категория <b>{name}</b> будет лежать во вкладке “архив”",
+        "categories-archive-header": "Архивирование категории",
+        "categories-unarchive": "После разархивации категория <b>{name}</b> будет лежать во вкладке “категории”",
+        "categories-unarchive-header": "Разархивирование категории",
+        "subcategories-remove": "Вы уверены, что хотите удалить подкатегорию <b>{name}</b>? После удаления её нельзя будет восстановить.",
+        "subcategories-remove-header": "Удаление подкатегории",
+        "subcategories-archive": "После архивации подкатегория <b>{name}</b> будет лежать во вкладке “архив”",
+        "subcategories-archive-header": "Архивирование категории",
+        "subcategories-unarchive": "После разархивации подкатегория <b>{name}</b> будет лежать во вкладке “подкатегории”",
+        "subcategories-unarchive-header": "Разархивирование подкатегории",
+        "lectures-remove": "Вы уверены, что хотите удалить лекцию <b>{name}</b>? После удаления её нельзя будет восстановить.",
+        "lectures-remove-header": "Удаление лекции",
+        "lectures-archive": "После архивации лекция <b>{name}</b> будет лежать во вкладке “архив”",
+        "lectures-archive-header": "Архивирование лекции",
+        "lectures-unarchive": "После разархивации лекция <b>{name}</b> будет лежать во вкладке “лекции”",
+        "lectures-unarchive-header": "Разархивирование лекции",
+        "course-student-remove-header": "Удаление студента с курса",
+        "course-student-remove": "Вы уверены, что хотите удалить студента с курса?",
+        "data-save": "У вас есть несохраненные измененения. Сохранить изменения?",
+        "end-test": "Вы уверены, что хотите завершить тестирование? Вопросы без ответа автоматически будут оценены на 0 баллов."
+      }
+    },
+    "search": {
+      "placeholder": "Поиск..."
+    },
+    "table": {
+      "header": {
+        "filter": "Фильтр",
+        "not-selected": "Не выбран",
+        "condition": "0 условий | {count} условие | {count} условия | {count} условий",
+        "sort": "Сортировать по"
+      },
+      "subheader": {
+        "lectures-in-category": "Лекции без подкатегории"
+      },
+      "column-names": {
+        "radio": "",
+        "actions": "",
+        "author": "Автор",
+        "author_id": "Автор",
+        "author_fio": "Автор",
+        "category_name": "Название категории",
+        "subcategory_name": "Название подкатегории",
+        "created_at": "Дата создания",
+        "name": "Название",
+        "title": "Название",
+        "kind": "Тип вопроса",
+        "lecture_type": "Тип лекции",
+        "language": "Язык",
+        "cover": "Обложка",
+        "is_published": "Опубликовано",
+        "status": "Статус",
+        "level": "Уровень образования",
+        "subdivisions": "Подразделения",
+        "specialties": "Специальности",
+        "specializations": "Специализации",
+        "updated_at": "Дата обновления",
+        "course_language_full_name": "Язык",
+        "course_level_full_name": "Уровень образования",
+        "is_archived": "Архивировано",
+        "disciplines": "Привязанные дисциплины"
+      },
+      "cells": {
+        "birthdate": {
+          "years": "0 лет | {count} год | {count} года | {count} лет"
+        }
+      },
+      "sidebar": {
+        "filters": "Фильтры",
+        "without-filter": "Без фильтра"
+      },
+      "actions": {
+        "create": "Создать",
+        "create-lecture": "Создать лекцию",
+        "category": "Категория",
+        "subcategory": "Подкатегория",
+        "lecture": "Лекция",
+        "subsection": "Подраздел",
+        "theme": "Тема",
+        "block": "Блок",
+        "lesson": "Занятие",
+        "clone": {
+          "title": "Копирование курса",
+          "submit_label": "Копировать",
+          "text": {
+            "start": "Вы уверены, что хотите копировать курс",
+            "end": "?"
+          }
+        },
+        "delete": {
+          "title": "Удаление курса",
+          "submit_label": "Удалить",
+          "text": {
+            "start": "Вы уверены, что хотите удалить курс",
+            "end": "? После удаленияего нельзя будет восстановить"
+          }
+        },
+        "save": {
+          "title": "Изменить опубликованный курс",
+          "text": "Вы уверены, что хотите изменить опубликованный курс “<b>{name}</b>”? ",
+          "apply": "Подтверждаю"
+        },
+        "publish": {
+          "title": "Публикация курса",
+          "submit_label": "Опубликовать",
+          "text": "Вы уверены, что хотите опубликовать курс <b>{name}</b>? После публикации он будет доступен для прохождения",
+          "list-error": {
+            "header": "Ошибка публикации"
+          },
+          "error": {
+            "header": "Курс не готов для публикации",
+            "table_headers": {
+              "element": "Элемент",
+              "number": "Номер",
+              "fixes": "Доработки"
+            },
+            "table_attribute_full_name": {
+              "points": "Шкала баллов",
+              "content": "Содержание",
+              "lessons": "Занятие",
+              "items": "Раздел"
+            }
+          },
+          "action": {
+            "cancel": "Понятно, спасибо"
+          }
+        },
+        "unpublish": {
+          "title": "Снять с публикации",
+          "submit_label": "Снять с публикации",
+          "text": "Вы уверены, что хотите снять с публикации курс <b>{name}</b>? После снятия с публикации статус курса изменится на “В работе”."
+        },
+        "archive": {
+          "title": "Архивирование курса",
+          "submit_label": "Архивировать",
+          "text": {
+            "start": "После архивации курс ",
+            "end": "будет лежать во вкладке “Архив”"
+          }
+        }
+      },
+      "filter_category": {
+        "all": "Все категории",
+        "my-category": "Мои категории",
+        "all-active-category": "Все активные",
+        "archive-category": "В архиве",
+        "archive": "Архивные"
+      },
+      "filter_courses": {
+        "all-courses": "Все курсы",
+        "my-courses": "Мои курсы",
+        "archive-courses": "Архивные"
+      },
+      "filter_subcategory": {
+        "all": "Все подкатегории",
+        "my-subcategory": "Мои подкатегории",
+        "all-active-subcategory": "Все активные",
+        "archive-subcategory": "Архивные"
+      },
+      "filter_lectures": {
+        "all": "Все лекции",
+        "my-lectures": "Мои лекции",
+        "all-active-lectures": "Все активные",
+        "archive-lectures": "Архивные"
+      },
+      "filter_predicates": {
+        "cont": "Содержит",
+        "not_cont": "Не содержит",
+        "cont_any": "Cодержит любое",
+        "eq": "Равно",
+        "not_eq": "Не равно",
+        "start": "Начинается с",
+        "end": "Заканчивается на",
+        "lt": "Меньше",
+        "gt": "Большe",
+        "gteq": "Больше или равно",
+        "lteq": "Меньше или равно"
+      },
+      "empty": {
+        "categories": "Создайте категории",
+        "categories-archived": "Нет архивных категорий",
+        "subcategories": "Создайте подкатегории",
+        "subcategories-archived": "Нет архивных подкатегорий",
+        "lectures": "Создайте лекции",
+        "lectures_not_found": "По заданным параметрам фильтрации ничего не найдено",
+        "lectures-archived": "Нет архивных лекций",
+        "courses": "Создайте курс",
+        "courses_not_found": "По заданным параметрам фильтрации ничего не найдено",
+        "quiz-config": "Создайте тесты",
+        "quiz-config_not_found": "По заданным параметрам фильтрации ничего не найдено",
+        "event": "Создайте мероприятие",
+        "result-list": "Нет тестов",
+        "result-for-check": "Нет тестов для проверки",
+        "result-checked": "Нет проверенных тестов",
+        "assignments_not_found": "Задания не найдены"
+      },
+      "filter": {
+        "filters": "Фильтры",
+        "apply-filter": "Применить фильтры"
+      }
+    },
+    "course": {
+      "about": "О курсе",
+      "actions": {
+        "to-course": "Вернуться на главную",
+        "next-lesson": "Перейти к лекции",
+        "next-quiz": "Перейти к выполнению теста",
+        "next-assignment": "Перейти к выполнению задания",
+        "next-video": "Перейти к видеоуроку",
+        "next-webinar": "Перейти к вебинару",
+        "previous-lesson": "Предыдущая лекция",
+        "previous-quiz": "Предыдущий тест",
+        "previous-assignment": "Предыдущее задание",
+        "previous-video": "Предыдущий видеоурок",
+        "previous-webinar": "Предыдущий вебинар"
+      },
+      "assignments": {
+        "start-submission": "Открыть решение задания",
+        "send-submission": "Отправить работу",
+        "edit-submission": "Редактировать работу",
+        "empty-submission": "Ни одного решения еще не было отправлено",
+        "grade": "Ваша оценка",
+        "grade-not-set": "Не выставлена",
+        "submission": "Решение",
+        "attachments": "Прикрепленные файлы",
+        "no-submission-comments": "Тут пока нет комментариев",
+        "load-more-comments": "Загрузить еще",
+        "submission-comments": "Комментарии",
+        "enter-comment": "Текст комментария",
+        "send-comment": "Отправить"
+      },
+      "complete": "завершено",
+      "completed-percent": "{count}%  Пройдено",
+      "paid-course": "Доступен для покупки",
+      "completed-course": "Пройденный курс",
+      "free-course": "Бесплатный курс",
+      "get-more-info": "Узнать больше о курсе",
+      "start-learning": "Начать обучение",
+      "go-on-studying": "Продолжить обучение",
+      "go-to-course": "Перейти к курсу",
+      "course-item-empty": "К сожалению, урок не доступен :(",
+      "guide": "Программа курса",
+      "lessons": "0 занятий | {count} занятие | {count} занятия | {count} занятий",
+      "lesson-completed": "занятий",
+      "list-empty": "Cписок пуст",
+      "no-data": "Нет информации",
+      "no-speciality": "Специализация не указана",
+      "notes": "Заметки",
+      "practice": "Практика",
+      "teacher": "Преподаватели",
+      "curator": "Кураторы",
+      "student": "Одногруппники",
+      "quiz-item-empty": "К сожалению, тест еще не привязан :(",
+      "quiz": {
+        "ask_your_tutor": "Время тестирования закончилось. Пожалуйста, {tutor} — он поможет разобраться.",
+        "attempt": "Попытка:",
+        "attempt_from_to": "{attempt} из {retakes}",
+        "dont-know": "Не знаю",
+        "audio-note": "Прослушайте аудио файл и выберите правильный ответ",
+        "back": "Назад",
+        "sound_check": "Проверка звука микрофона",
+        "check_sound": "Проверить звук",
+        "cancel_check_sound": "Прекратить проверку",
+        "no_microphone_access": "Нет доступа к микрофону",
+        "microphone_warning": "Обращаем внимание, что в тесте содержатся вопросы, требующие устного ответа. Убедитесь, что гарнитура подключена и исправна.",
+        "microphone_error": "К сожалению, гарнитура не обнаружена и вы не можете приступить к прохождению теста. Подключите гарнитуру или попробуйте пройти с другого устройства.",
+        "sound_error": "Звук вашего микрофона не обнаружен и вы не можете приступить к прохождению теста. Подключите звук или попробуйте пройти с другого устройства.",
+        "call_curator": "Необходимо связаться с куратором",
+        "case-sensitivity": "Чувствительный к регистру (большие буквы)",
+        "correct-answer": "Правильный ответ:",
+        "days": "дней",
+        "detailed-title": "Подробный ответ",
+        "duration": "Продолжительность:",
+        "end-reading": "Закончить чтение",
+        "end-test": "Завершить тест",
+        "field-placeholder": "Перетащите ответ сюда",
+        "free_movement": "Возможно свободное перемещение между вопросами",
+        "hours": "часов",
+        "hours_short": "{hours}ч ",
+        "is_retakeable": "Возможность пересдачи",
+        "is_sensitive": "В задании учитывается чувствительность к регистру (большие буквы)",
+        "matching-groups-title": "Группы соответствий",
+        "max_points": "Максимальное количество баллов",
+        "min": "мин",
+        "minutes": "минут",
+        "minutes_short": "{minutes}мин",
+        "no": "Нет",
+        "not_accessible": "Внимание! Тестирование недоступно",
+        "non_accessible_without_warn": "Тестирование недоступно",
+        "non_free_movement": "Прохождение вопросов в строгой последовательности",
+        "not_retakeable": "Внимание! Тестирование можно пройти только 1 раз",
+        "number_of_retakes": "Количество пересдач",
+        "okay": "Хорошо",
+        "pairs-title": "Пары соответствий",
+        "pass-quiz": "Приступить к тестированию",
+        "plural_hours": "0 часов | {count} час | {count} часа | {count} часов",
+        "plural_minutes": "0 минут | {count} минута | {count} минуты | {count} минут",
+        "processing": "Идет Обработка...",
+        "question": "Вопрос",
+        "questions_count": "Количество вопросов в тесте",
+        "questions_in_quiz": "Вопросов в тесте:",
+        "questions_list": "Список вопросов",
+        "quiz_available": "Тест доступен:",
+        "quiz_starts_at": "До начала тестирования",
+        "reading-before": "Нажмите кнопку \"Начать чтение\", у вас будет <strong>{duration}</strong> секунд на чтение текста, затем нужно будет ответить на вопросы теста",
+        "reading-speed": "Скорость чтения",
+        "reading-time": "Прошло: {timeReading}",
+        "request-help": "Задать вопрос",
+        "result": "Результаты теста",
+        "result-text": "Вы набрали {points} из {totalPoints}. Результат теста {gradeName}",
+        "seconds": "секунд",
+        "send-answer": "Ответить",
+        "sequence-title": "Установка последовательности",
+        "skip": "Пропустить вопрос",
+        "spm": "символов/мин | символ/мин | символа/мин | символов/мин",
+        "start_quiz": "Начать тест",
+        "testing": "тестирование",
+        "time-event": "Продолжительность тестирования",
+        "time-expired": "Время вышло",
+        "time-on-test": "Время на прохождение теста",
+        "title": "Teст",
+        "try-again": "Попробовать cнова",
+        "tutor": "свяжитесь с куратором",
+        "yes": "Да",
+        "you-read-text": "Вы прочитали текст, теперь можете приступить к ответам на вопросы",
+        "status": {
+          "correct": "Правильно",
+          "incorrect": "Неправильно",
+          "missing": "Вопрос пропущен",
+          "waiting": "Ожидает проверки"
+        },
+        "quiz-result-info": {
+          "quiz_instance_title": "Название теста",
+          "discipline_name": "Дисциплина",
+          "fio": "ФИО студента",
+          "group": "Группа",
+          "course": "Курс",
+          "faculty": "Факультет",
+          "date": "Дата",
+          "timeSpent": "Затраченное время",
+          "total_questions": "Всего вопросов",
+          "answered_questions_count": "Отвеченные",
+          "correct_answers_count": "Верные",
+          "result_as_percentage": "Результат,  %",
+          "points": "Результат,  баллы"
+        }
+      },
+      "titles": {
+        "author": "Автор",
+        "additional-materials": "Дополнительные материалы",
+        "course": "Курс",
+        "courses": {
+          "all": "Все курсы",
+          "my": "Мои курсы",
+          "completed": "Завершенные",
+          "current": "Текущие",
+          "favorites": "Избранные",
+          "online": "Онлайн-курсы",
+          "popular": "Популярные курсы",
+          "resent-courses": "Недавние курсы"
+        },
+        "lesson": "Урок",
+        "section": "Раздел",
+        "to-complete": "до завершения текущего курса",
+        "subheadings": {
+          "assignment": "Выполните задание",
+          "quiz": "Пройдите тест",
+          "video": "Ознакомьтесь с видео"
+        }
+      },
+      "until": "до",
+      "state": {
+        "draft": "Черновик",
+        "in_work": "В работе",
+        "ready": "Готов"
+      }
+    }
+  },
+  "multiselect": {
+    "base": {
+      "choose": "Выберите значение",
+      "choose_answer": "Выберите вариант",
+      "deselect": "Нажмите Enter, чтобы снять выбор",
+      "no-result": "По Вашему запросу ничего не найдено",
+      "empty-list": "Список пуст",
+      "placeholder": "Поиск...",
+      "select": "Нажмите Enter для выбора",
+      "selected": "Выбрано"
+    },
+    "study_group": {
+      "placeholder": "Поиск учебной группы"
+    },
+    "study_area": {
+      "reset_option": "Без предметной области"
+    },
+    "speciality": {
+      "reset_option": "Без специальности"
+    },
+    "speciality_profile": {
+      "reset_option": "Без специализации"
+    },
+    "speciality-profile": {
+      "reset_option": "Без специализации"
+    },
+    "stream": {
+      "reset_option": "Без потока"
+    },
+    "study_level": {
+      "reset_option": "Без уровня образования"
+    },
+    "study_form": {
+      "reset_option": "Без формы обучения"
+    },
+    "author": {
+      "reset_option": "Без автора"
+    },
+    "branch": {
+      "reset_option": "Без филиала"
+    },
+    "branch_in_profile": {
+      "reset_option": "Без филиала"
+    },
+    "faculty": {
+      "reset_option": "Без факультета"
+    },
+    "category": {
+      "placeholder": "Выберите категорию"
+    },
+    "subcategory": {
+      "placeholder": "Выберите подкатегорию"
+    },
+    "type_field": {
+      "placeholder": "Выберите тип поля"
+    },
+    "library": {
+      "placeholder": "Выберите пункт"
+    },
+    "module_course": {
+      "placeholder": "Выберите тему"
+    },
+    "module_user": {
+      "placeholder": "Поиск пользователя"
+    },
+    "type": {
+      "placeholder": "Выберите тип контента"
+    },
+    "filters": {
+      "placeholder": "Выберите параметр фильтрации"
+    },
+    "forms": {
+      "placeholder": "Начните вводить значение"
+    },
+    "multiple": {
+      "placeholder": "Выберите значение"
+    },
+    "columns": {
+      "placeholder": "Введите название поля"
+    },
+    "states": {
+      "placeholder": "Выберите статус"
+    },
+    "video_source": {
+      "placeholder": "Выберите источник видео"
+    },
+    "cover_video": {
+      "reset_option": "Без видео обложки"
+    },
+    "choose": {
+      "placeholder": "Выберите"
+    },
+    "course": {
+      "placeholder": "Выберите курс",
+      "reset_option": "Без курса"
+    },
+    "language": {
+      "placeholder": "Выберите язык"
+    },
+    "lectures": {
+      "all_lectures": "Все лекции",
+      "my_lectures": "Мои лекции",
+      "all_active_lectures": "Все активные",
+      "archive_lectures": "Архивные"
+    },
+    "courses": {
+      "all_courses": "Все курсы",
+      "my_courses": "Мои курсы",
+      "archive_courses": "Архивные"
+    }
+  },
+  "datepicker": {
+    "calendar": {
+      "gmt": "GMT {z}",
+      "week-day": "dd D",
+      "week-day-without-number": "dd",
+      "popup-title": "dddd, D MMMM YYYY",
+      "title": "MMMM YYYY",
+      "title-day": "D MMMM YYYY"
+    },
+    "mask": {
+      "date": "##.##.####",
+      "datetime": "##.##.####, ##:##",
+      "time": "##ч ##м",
+      "range": "##.##.#### - ##.##.####"
+    },
+    "date": "DD.MM.YYYY",
+    "datetime": "DD.MM.YYYY, HH:mm",
+    "create-update-datetime": "DD.MM.YYYY, HH:mm:ss",
+    "duration": "HHч mmм",
+    "duration-dynamic": "{hours}ч {minutes}м",
+    "placeholder": "дд/мм/гггг",
+    "base": {
+      "h": "ч",
+      "m": "м"
+    }
+  },
+  "attributes": {
+    "assignment": {
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "attachment_ids": "Файлы",
+      "name": "Заголовок",
+      "text": "Описание"
+    },
+    "attachments": {
+      "no-file": "Нет файла",
+      "choose-file": "Выберите файл"
+    },
+    "boolean": {
+      "yes": "Да",
+      "no": "Нет"
+    },
+    "educational-plans": {
+      "name": "Наименование",
+      "education_level": "Уровень образования",
+      "education_form": "Форма обучения",
+      "direction": "Направление",
+      "profile": "Профиль",
+      "subdivision": "Подразделение",
+      "qualification": "Квалификация на выходе",
+      "actuality": "Актуальность"
+    },
+    "exams": {
+      "discipline": "Дисциплина",
+      "start_at": "Время начала",
+      "grade": "Оценка",
+      "no-grade": "Не выставлена"
+    },
+    "branch": {
+      "address": "Адрес",
+      "city": "Город",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "head": "Руководитель",
+      "name": "Название",
+      "phone_number": "Телефон"
+    },
+    "book": {
+      "author": "Автор",
+      "name": "Название",
+      "publishing_house": "Издательство",
+      "publishing_year": "Год издания",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "building": {
+      "created_at": "Дата создания",
+      "name": "Название"
+    },
+    "multiple-choice": {
+      "no-chosen": "Не выбраны"
+    },
+    "event_kind": {
+      "list": {
+        "colloquium": "Коллоквиум",
+        "exam": "Экзамен",
+        "excursion": "Экскурсия",
+        "laboratory_work": "Лабораторная работа",
+        "lecture": "Лекция",
+        "lesson": "Урок",
+        "master_class": "Мастер-класс",
+        "practice": "Практическое занятие",
+        "seminar": "Семинар",
+        "test": "Тест"
+      }
+    },
+    "video": {
+      "title": "Название",
+      "description": "Описание",
+      "undefined": "Видео отcутствует на сервере",
+      "null": "Видео отcутствует на сервере",
+      "url": "Ссылка",
+      "state": "Статус",
+      "original_file_id": "Оригинал видео",
+      "variants": "Загруженное видео",
+      "source": "Источник",
+      "video_source": "Тип источника",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "internal": "Внутренний",
+      "thumbnail": "Обложка",
+      "youtube": "Youtube",
+      "waiting": "Ожидает конвертации",
+      "processing": "Конвертируется",
+      "failed": "Ошибка конвертации",
+      "processed": "Сконвертировано",
+      "load_file": "Загрузить файл",
+      "playback-rate": "Скорость",
+      "video-quality": "Качество"
+    },
+    "video-selector": {
+      "no-file": "Без обложки"
+    },
+    "single-choice": {
+      "no-chosen": "Не выбран",
+      "no-chosen-any": "Не выбрано"
+    },
+    "study-plans": {
+      "name": "Наименование",
+      "title": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "index": "Индекс",
+      "control-form": "Форма контроля",
+      "control-form-exams": "Экзамен",
+      "control-form-zachet": "Зачет",
+      "control-form-zachet-v-oc": "Зачет с ОЦ",
+      "control-form-cr": "кр",
+      "zet": "Зет",
+      "zet-form-expert": "эксперт",
+      "fact": "факт.",
+      "academ-hour": "Академ. часы",
+      "academ-hour-expert": "эксперт",
+      "academ-hour-plan": "план",
+      "academ-hour-kontr-hourse": "конт. часы",
+      "academ-hour-sr": "ср.",
+      "academ-hour-control": "контроль",
+      "first-course": "1 курс",
+      "first-semestr": "1 семестр",
+      "first-semestr-zet": "зет.",
+      "first-semestr-sum": "итого",
+      "first-semestr-lek": "лек",
+      "first-semestr-lab": "лаб",
+      "first-semestr-pr": "пр",
+      "first-semestr-konst": "конс",
+      "first-semestr-cp": "ср",
+      "first-semestr-control": "контроль"
+    },
+    "classroom": {
+      "name": "Название",
+      "created_at": "Дата создания"
+    },
+    "course": {
+      "add_course": "Добавить",
+      "author": "Автор",
+      "author_role_name": "Преподаватель",
+      "created_at": "Дата создания",
+      "cover": "Обложка",
+      "cover_video": "Видео обложка",
+      "chair": "Кафедра",
+      "description": "Описание",
+      "form": "Форма",
+      "to_publish": "Опубликовать",
+      "is_published": "Опубликованный",
+      "to_promote": "Добавить в популярное",
+      "is_promoted": "Популярный",
+      "item_name": "Название",
+      "module_name": "Название темы",
+      "name": "Название",
+      "profile": "Профиль",
+      "rpd": "РПД",
+      "branch_in_profile": "Филиал",
+      "branch": "Филиал",
+      "study_area": "Предметная область",
+      "speciality": "Специальность",
+      "speciality-profile": "Специализация",
+      "updated_at": "Дата обновления",
+      "version": "Версия",
+      "start_date": "Дата начала",
+      "end_date": "Дата окончания"
+    },
+    "course_user": {
+      "add_user": "Добавить пользователя",
+      "name": "ФИО",
+      "full_name": "ФИО",
+      "middle_name": "Отчество",
+      "last_name": "Фамилия",
+      "completeness_percent": "Прогресс прохождения",
+      "created_at": "Дата добавления на курс",
+      "count_users": "чел.",
+      "user_list": "Список студентов"
+    },
+    "department": {
+      "name": "Название",
+      "faculty": "Факультет",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "dictionaries": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "dictionary_item": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "educational-programs": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "recruitment-plans": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "preparing-programs": {
+      "title": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "practices": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "categories": {
+      "name": "Название",
+      "author": "Автор",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "subcategories": {
+      "name": "Название",
+      "author": "Автор",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "lectures": {
+      "name": "Название лекции",
+      "description": "Описание",
+      "content": "Содержимое лекции",
+      "questions": "Вопросы для самопроверки",
+      "attachments": "Дополнительные материалы",
+      "links": "Ссылки на материалы",
+      "author": "Автор",
+      "category": "Название категории",
+      "subcategory": "Название подкатегории",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "courses": {
+      "name": "Название",
+      "description": "Описание",
+      "cover": "Обложка",
+      "language": "Язык",
+      "education_level": "Уровень образования",
+      "author": "Автор",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "attestations": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "workloads": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "processes": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "entrance-tests": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "finance": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "products": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "communications": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "tasks": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "discipline_group": {
+      "name": "Название",
+      "education": "Образование",
+      "education_level": "Уровень образования",
+      "education_form": "Форма Обучения",
+      "education_profile": "Профиль",
+      "education_code": "Код направления",
+      "department": "Кафедра",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "document_template_category": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "document_template": {
+      "name": "Название",
+      "attachment_id": "Файл",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "employee": {
+      "birthdate": "Дата рождения",
+      "created_at": "Дата создания",
+      "email": "E-mail",
+      "first_name": "Имя",
+      "full_name": "ФИО",
+      "gender": "Пол",
+      "last_name": "Фамилия",
+      "middle_name": "Отчество",
+      "updated_at": "Дата обновления",
+      "roles": "Роль",
+      "is_archived": "Архивация"
+    },
+    "lesson": {
+      "created_at": "Дата создания",
+      "classroom": "Кабинет",
+      "course": "Курс",
+      "name": "Название",
+      "kind": "Тип занятия",
+      "date_start": "Дата начала",
+      "starts_at": "Время начала",
+      "ends_at": "Время окончания"
+    },
+    "lessons_event": {
+      "name": "Название мероприятия",
+      "starts_at": "Дата начала",
+      "ends_at": "Дата окончания",
+      "kind": "Вид мероприятия",
+      "speciality": "Специальность",
+      "speciality_profile": "Специализация",
+      "discipline": "Дисциплина",
+      "course": "Курс",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "lessons_event_ticket": {
+      "number": "№",
+      "name": "Название билета",
+      "count": "Количество вопросов",
+      "author": "Автор",
+      "created_at": "Создано"
+    },
+    "lessons_event_teacher": {
+      "full_name": "ФИО",
+      "name": "Название",
+      "faculty": "Факультет",
+      "department": "Кафедра",
+      "position": "Должность",
+      "study_group": "Учебная группа"
+    },
+    "lessons_event_student": {
+      "full_name": "ФИО",
+      "name": "Название",
+      "faculty": "Факультет",
+      "department": "Кафедра",
+      "position": "Должность",
+      "study_group": "Учебная группа"
+    },
+    "lessons_event_attendance": {
+      "kinds": {
+        "missed": "Неявка",
+        "attended": "Явка",
+        "sick_leave": "Болезнь",
+        "missed_for_good_reason": "Неявка по у/п"
+      },
+      "no_data": "Не указано",
+      "no_comment_data": "Не указан",
+      "columns": {
+        "student": "Учащийся",
+        "ticket": "Билет",
+        "kind": "Посещ-ть",
+        "grade": "Оценка",
+        "comment": "Комментарий"
+      }
+    },
+    "faculty": {
+      "name": "Название",
+      "branch": "Филиал",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "mail_template": {
+      "subject": "Название",
+      "language": "Язык",
+      "languages": {
+        "ru": "Русский",
+        "en": "Английский"
+      },
+      "kind": "Тип",
+      "layout": "Шаблон письма",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "list": {
+        "reset_password": "Письмо о сбросе пароля",
+        "sign_up": "Письмо о регистрации",
+        "layout": "Шаблон письма"
+      }
+    },
+    "role": {
+      "description": "Описание",
+      "name": "Название",
+      "group": "Группа",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "list": {
+        "Employee": "Сотрудник",
+        "Student": "Студент"
+      }
+    },
+    "speciality": {
+      "name": "Название",
+      "created_at": "Дата создания"
+    },
+    "speciality_profile": {
+      "name": "Название",
+      "created_at": "Дата создания"
+    },
+    "speciality-profile": {
+      "name": "Название",
+      "created_at": "Дата создания"
+    },
+    "stream": {
+      "created_at": "Дата создания",
+      "name": "Название",
+      "updated_at": "Дата обновления"
+    },
+    "portfolio": {
+      "name": "Название",
+      "description": "Описание",
+      "discipline": "Дисциплина",
+      "kind": "Тип",
+      "points": "Оценка",
+      "created_at": "Создано",
+      "options": {
+        "project": "Проект",
+        "abstract": "Реферат",
+        "essay": "Эссе",
+        "course_work": "Курсовая работа",
+        "graduate_work": "ВКР",
+        "article": "Статья",
+        "dissertation": "Диссертация",
+        "study_work": "Учебные работы",
+        "research_work": "НИР",
+        "personal_achievement": "Личные достижения",
+        "recommendations": "Отзывы и рекомендации"
+      }
+    },
+    "stream_study_group": {
+      "ended_on": "Дата окончания обучения",
+      "name": "Название",
+      "started_on": "Дата начала обучения",
+      "study_period": "Период обучения",
+      "study_create": "Дата создания"
+    },
+    "quiz": {
+      "start-voice-record": "нажмите, чтобы записать голос",
+      "end-voice-record": "остановить запись голоса",
+      "name": "Заголовок теста",
+      "description": "Описание",
+      "duration": "Время на прохождение",
+      "is_retakeable": "Разрешить пересдачу",
+      "branch_in_profile": "Филиал",
+      "branch": "Филиал",
+      "kind": "Тип тестирования",
+      "kinds_list": {
+        "reading_speed": "Скорочтение",
+        "classic": "Классический"
+      },
+      "study_area": "Предметная область",
+      "speciality": "Специальность",
+      "speciality-profile": "Специализация",
+      "points_for": "Баллов на",
+      "h": "ч",
+      "m": "м",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "quiz_type_modal": {
+      "title": "Тип вопроса",
+      "placeholder": "Выберите тип вопроса",
+      "type_pair": "Выберите тип пары",
+      "single_choice": "Единственный выбор",
+      "multiple_choice": "Множественный выбор",
+      "number": "Число",
+      "short_text": "Текст",
+      "matching_groups": "Группы соответствий",
+      "pairs": "Пары соответствий",
+      "detailed": "Подробный ответ",
+      "sequence": "Установка последовательности",
+      "verbal": "Устный ответ",
+      "text": "Текст / Формула",
+      "photo": "Фото",
+      "video": "Видео",
+      "audio": "Аудио"
+    },
+    "material": {
+      "name": "Название",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "material_category": {
+      "name": "Название",
+      "branch": "Филиал",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "student_study_group": {
+      "ended_on": "Дата окончания обучения",
+      "name": "Название",
+      "started_on": "Дата начала обучения",
+      "study_period": "Период обучения"
+    },
+    "student_control_book": {
+      "discipline": "Дисциплина",
+      "points": "Баллы",
+      "num_of_hours": "Количество часов",
+      "teacher": "Преподаватель",
+      "date": "Дата"
+    },
+    "student_attendance": {
+      "discipline": "Дисциплина",
+      "status": "Статус",
+      "teacher": "Преподаватель",
+      "date": "Дата"
+    },
+    "student_files": {
+      "attachment": "Файл",
+      "size": "Размер",
+      "date": "Дата"
+    },
+    "study_group_student": {
+      "full_name": "ФИО",
+      "study_period": "Период обучения",
+      "add_student": "Добавить студента"
+    },
+    "study_form": {
+      "name": "Название"
+    },
+    "study_group": {
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "name": "Название",
+      "branch_in_profile": "Филиал",
+      "branch": "Филиал",
+      "study_area": "Предметная область",
+      "speciality": "Специальность",
+      "speciality-profile": "Специализация",
+      "speciality_profile": "Специализация",
+      "stream": "Поток",
+      "study_level": "Уровень образования",
+      "study_form": "Форма обучения"
+    },
+    "study_level": {
+      "name": "Название"
+    },
+    "study_area": {
+      "name": "Название",
+      "created_at": "Дата создания"
+    },
+    "quiz_results": {
+      "last_name": "Фамилия",
+      "first_name": "Имя",
+      "middle_name": "Отчество",
+      "points": "Результат",
+      "total_questions": "Количество вопросов:",
+      "answered_questions_count": "Количество ответов:",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления",
+      "new_try": "Пройти заново",
+      "to_events_page": "К списку мероприятий",
+      "show_results": "Посмотреть подробный результат",
+      "questions_count": "Вопросов в тесте:",
+      "time_spend": "Затраченое время:",
+      "attempts_from_to": "{current} из {total}",
+      "points_from_to": "{points} из {max_points} возможных",
+      "points_amount": "Набрано баллов:",
+      "correct_answers_from_to": "{correct} из {total_correct} правильных ответов",
+      "correct_answers": "Правильные ответы:",
+      "result": "Результат:",
+      "test_ended": "Тестирование завершено",
+      "preliminary_result": "Предварительный результат:",
+      "preliminary_result_info": "Ниже отображен ваш минимальный результат по тестированию. Вопросов с подробным ответом на проверке у преподавателя: {questions}"
+    },
+    "quiz_contents": {
+      "name": "Содержание"
+    },
+    "quiz_result": {
+      "full_name": "ФИО",
+      "points": "Результат",
+      "statistic": "Статистика",
+      "from": "Из",
+      "finished_at": "Завершен",
+      "reading_speed": "Скорость сим/мин",
+      "statistic_tooltip": "ответов всего (правильных ответов) / кол-во вопросов"
+    },
+    "teacher": {
+      "birthdate": "Дата рождения",
+      "created_at": "Дата создания",
+      "email": "E-mail",
+      "first_name": "Имя",
+      "full_name": "ФИО",
+      "gender": "Пол",
+      "last_name": "Фамилия",
+      "middle_name": "Отчество",
+      "updated_at": "Дата обновления"
+    },
+    "user": {
+      "birthdate": "Дата рождения",
+      "created_at": "Дата создания",
+      "email": "E-mail",
+      "first_name": "Имя",
+      "full_name": "ФИО",
+      "gender": "Пол",
+      "last_name": "Фамилия",
+      "middle_name": "Отчество",
+      "updated_at": "Дата обновления",
+      "roles": "Роль",
+      "no_name": "Имя не указано",
+      "is_archived": "Архивация",
+      "student-number": "Нет учащихся | {count} учащийся | {count} учащихся | {count} учащихся",
+      "employee-number": "Нет сотрудников | {count} сотрудник | {count} сотрудника | {count} сотрудников",
+      "users-modal": {
+        "student-number": "Кол-во учащихся",
+        "employee-number": "Кол-во сотрудников",
+        "name": {
+          "course": "Название курса",
+          "study_group": "Название группы",
+          "stream": "Название потока",
+          "lessons_event": "Название мероприятия",
+          "branch": "Название филиала",
+          "faculty": "Название факультета",
+          "book": "Название литературы",
+          "quiz": "Название теста",
+          "video": "Название видео",
+          "assignment": "Название задания",
+          "material": "Название ресурса МТБ",
+          "department": "Название кафедры",
+          "weblink": "Название ресурса",
+          "user": "Имя пользователя",
+          "employee": "Имя пользователя",
+          "student": "Имя пользователя",
+          "dictionary_item": "Название элемента справочника"
+        }
+      }
+    },
+    "student": {
+      "birthdate": "Дата рождения",
+      "created_at": "Дата создания",
+      "email": "E-mail",
+      "first_name": "Имя",
+      "full_name": "ФИО",
+      "gender": "Пол",
+      "last_name": "Фамилия",
+      "middle_name": "Отчество",
+      "updated_at": "Дата обновления",
+      "roles": "Роль",
+      "no_name": "Имя не указано",
+      "is_archived": "Архивация",
+      "student-number": "Нет учащихся | {count} учащийся | {count} учащихся | {count} учащихся",
+      "employee-number": "Нет сотрудников | {count} сотрудник | {count} сотрудника | {count} сотрудников",
+      "users-modal": {
+        "student-number": "Кол-во учащихся",
+        "employee-number": "Кол-во сотрудников",
+        "name": {
+          "course": "Название курса",
+          "study_group": "Название группы",
+          "stream": "Название потока",
+          "lessons_event": "Название мероприятия",
+          "branch": "Название филиала",
+          "faculty": "Название факультета",
+          "book": "Название литературы",
+          "quiz": "Название теста",
+          "video": "Название видео",
+          "assignment": "Название задания",
+          "material": "Название ресурса МТБ",
+          "department": "Название кафедры",
+          "weblink": "Название ресурса",
+          "user": "Имя пользователя",
+          "employee": "Имя пользователя",
+          "student": "Имя пользователя",
+          "dictionary_item": "Название элемента справочника"
+        }
+      }
+    },
+    "webinar": {
+      "name": "Название",
+      "room_url": "Ссылка на вебинар",
+      "description": "Описание",
+      "duration": "Продолжительность",
+      "starting_at": "Начало",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "webinar_user": {
+      "add_user": "Добавить пользователя",
+      "name": "ФИО"
+    },
+    "weblink": {
+      "name": "Название",
+      "url": "Ссылка",
+      "description": "Описание",
+      "created_at": "Дата создания",
+      "updated_at": "Дата обновления"
+    },
+    "student_course": {
+      "name": "Название курса",
+      "completeness_percent": "Прогресс прохождения",
+      "start_date": "Дата начала",
+      "end_date": "Дата окончания"
+    },
+    "detailed_answer": {
+      "all_checked": "Всё проверено",
+      "some_left": "{count} вопросов | {count} вопрос | {count} вопроса | {count} вопросов",
+      "nothing_to_check": "Нет вопросов"
+    }
+  },
+  "associations": {
+    "mail_template": {
+      "templates": "Шаблоны",
+      "tabs": {
+        "html_body": "HTML шаблон",
+        "text_body": "Текстовый шаблон"
+      }
+    },
+    "members": {
+      "teachers": "Преподаватели",
+      "students": "Студенты"
+    },
+    "assignment": {
+      "contents": "Содержание"
+    },
+    "lessons_event": {
+      "tickets": "Билеты",
+      "members": "Участники",
+      "questions": "Вопросы",
+      "rpd": "РПД",
+      "activity": "Активности",
+      "attendance": "Посещаемость и оценки",
+      "scores_attendance": "Оценки и посещаемость",
+      "parameters": "Параметры",
+      "add_question": "Добавить вопрос",
+      "question_category_name": "Название категории вопросов",
+      "question_category_parameter": "Параметры категории вопросов",
+      "questions_count": "0 вопросов | {count} вопрос | {count} вопроса | {count} вопросов"
+    },
+    "rights": {
+      "access": {
+        "read": "Видеть всё",
+        "read_my": "Видеть своё",
+        "edit": "Редактировать",
+        "create": "Создавать",
+        "manage": "Полный доступ",
+        "update": "Редактировать всё",
+        "update_my": "Редактировать своё",
+        "destroy": "Удалять всё",
+        "destroy_my": "Удалять своё",
+        "archive": "Архивировать"
+      },
+      "all": "Общий",
+      "assignments": "Задания",
+      "attachments": "Файлы",
+      "attendances": "Посещения и оценки",
+      "bpm": "БПМ",
+      "books": "Книги",
+      "buildings": "Корпуса",
+      "categories": "Категории",
+      "classrooms": "Аудитории",
+      "column_sets": "Столбцы",
+      "course_users": "Пользователи курсов",
+      "contractor": "Контрагенты",
+      "comments": "Комментарии",
+      "communications": "Коммуникации",
+      "competences": "Компетенции",
+      "courses": "Курсы",
+      "custom_attributes": "Кастомные атрибуты",
+      "custom_attributes_groups": "Группы кастомных атрибутов",
+      "departments": "Кафедры",
+      "dictionaries": "Справочники",
+      "dictionary_items": "Элементы справочников",
+      "diplomas": " Дипломы",
+      "disciplines": "Дисциплины",
+      "document_templates": "Шаблоны документов",
+      "documents": "Документы",
+      "educational_programs": "Образовательные программы",
+      "employees": "Сотрудники",
+      "enrollee_profiles": "Профили абитуриентов",
+      "enrollees": "Абитуриенты",
+      "entrance_tests": "Вступительные испытания",
+      "exam_tickets": "Экзаменационные билеты",
+      "exam_questions": "Вопросы для экзамена",
+      "exam_results": "Результаты сдачи экзамена",
+      "external_services": "Внешние услуги",
+      "faculties": "Факультеты",
+      "feedbacks": "Отзывы",
+      "filters": "Фильтры",
+      "files": "Файлы пользователя",
+      "finance": "Финансы",
+      "further_education_groups": "ДПО",
+      "grades": "Оценки",
+      "invoices": "Счета",
+      "lessons": "Уроки",
+      "materials": "Ресурсы МТБ",
+      "mmis_import_files": "ММИС",
+      "news": "Новости",
+      "newsletters": "Рассылка",
+      "org_structure": "ОРГ структура",
+      "quizzes": "Тесты",
+      "quiz_gradescales": "Оценки тестов",
+      "quiz_results": "Результаты тестов",
+      "lectures": "Лекции",
+      "payments": "Платежи",
+      "phone_calls": "Звонки",
+      "preparing_programs": "РПД",
+      "processes": "Библиотеки процессов",
+      "products": "Продукты",
+      "program": "Программы",
+      "recruitment_plans": "Планы набора",
+      "reports": "Отчеты",
+      "roles": "Роли",
+      "salaries": "Зарплаты",
+      "specialities": "Специальности",
+      "speciality_profiles": "Специализации",
+      "students": "Студенты",
+      "students_study_groups": "Учебные группы студентов",
+      "study_areas": "Предметные области",
+      "study_forms": "Формы обучения",
+      "study_groups": "Учебная группа",
+      "study_levels": "Уровни обучения",
+      "study_materials": "Учебные материалы",
+      "study_plans": "Учебные планы",
+      "streams": "Потоки",
+      "tasks": "Задачи",
+      "task_trackers": "Трекеры задач",
+      "traffics": "Движения",
+      "videos": "Видео",
+      "webinars": "Вебинары",
+      "weblinks": "Интернет-ресурсы",
+      "wikis": "Библиотека",
+      "workloads": "Нагрузки",
+      "users": "Пользователи",
+      "portfolio_items": "Портфолио",
+      "mail_templates": "Шаблоны",
+      "mmis/import_files": "Импорт из «Шахт»"
+    },
+    "role": {
+      "rights": "Права доступа"
+    },
+    "quiz_results": {
+      "preview": "Просмотр"
+    },
+    "discipline_group": {
+      "work_plan": "РПД",
+      "competences": "Компетенции"
+    },
+    "dictionaries": {
+      "dictionary-settings": "Добавление атрибутов"
+    },
+    "branch": {
+      "buildings": "Корпуса",
+      "study_areas": "Предметные области"
+    },
+    "building": {
+      "classrooms": "Аудитории"
+    },
+    "course": {
+      "content": "Содержание",
+      "student": "Студенты",
+      "curator": "Кураторы",
+      "teacher": "Преподаватели",
+      "work_programs": "Рабочие программы",
+      "study_materials": "Учебные материалы",
+      "test": "Тестирование",
+      "jobs": "Задания",
+      "params": "Параметры",
+      "add-module-item-desc": "Чтобы добавить лекцию, задание, тест или видео, нажмите кнопку \"Добавить\" выше.",
+      "fields": {
+        "type_content": "Тип контента",
+        "header": "Заголовок",
+        "subheader": "Подзаголовок",
+        "video_source": "Источник",
+        "assignment": "Задание",
+        "available_period": "Период доступности",
+        "files": "Файлы",
+        "library_test": "Тест из библиотеки",
+        "library_video": "Видео из библиотеки",
+        "library_webinar": "Вебинар из библиотеки",
+        "rating_scale": "Оценочная шкала",
+        "save_template": "Сохранить как шаблон",
+        "score": "Балл",
+        "video_preview": "Предпросмотр видео"
+      },
+      "period_modal": {
+        "chose_period": "Укажите период доступности",
+        "started_at": "Начало периода",
+        "ended_at": "Конец периода"
+      },
+      "select": {
+        "theme": "Тема",
+        "lesson": "Урок",
+        "lecture": "Лекция",
+        "video": "Видео",
+        "webinar": "Вебинар",
+        "test": "Тест",
+        "assignment": "Задание"
+      },
+      "button": {
+        "add_file": "Добавить файл"
+      },
+      "type_course": {
+        "theme": "Тема",
+        "section": "Раздел",
+        "lecture": "Лекция"
+      },
+      "item_types": {
+        "themes": "Темы",
+        "lessons": "Уроки",
+        "quizzes": "Оценочные мероприятия"
+      },
+      "period_title": {
+        "always_available": "Доступно всегда"
+      },
+      "course_items_hint": {
+        "quiz": "Перейти к тесту",
+        "assignment": "Перейти к заданию",
+        "webinar": "Перейти к трансляции"
+      }
+    },
+    "user": {
+      "documents": "Документы",
+      "files": "Файлы",
+      "gradebook": "Книга баллов",
+      "portfolio": "Портфолио",
+      "courses": "Курсы",
+      "student_attendance": "Посещаемость",
+      "student_control_book": "Зачетная книжка",
+      "study_groups": "Группы",
+      "tasks": "Задачи"
+    },
+    "student_control_book": {
+      "disciplines": "Дисциплины",
+      "course_work": "Курсовая работа",
+      "practice": "Практика",
+      "gia": "ГИА"
+    },
+    "student_attendances": {
+      "all_classes": "Все занятия",
+      "missed": "Пропущенные"
+    },
+    "portfolio": {
+      "study_works": "Учебные группы",
+      "nir": "НИР",
+      "personal_progress": "Личные достижения",
+      "replies_and_recomendations": "Отзывы и рекомендации"
+    },
+    "study_area": {
+      "specialities": "Специальности"
+    },
+    "speciality": {
+      "speciality-profiles": "Специализации"
+    },
+    "study_group": {
+      "students": "Студенты"
+    },
+    "stream": {
+      "study_groups": "Учебные группы"
+    },
+    "educational-plans": {
+      "study-plans": "План",
+      "disciplines": "Дисциплины",
+      "schedule": "Расписание",
+      "chart": "График",
+      "competition": "Компетенция",
+      "load": "Нагрузка",
+      "groups": "Группы",
+      "params": "Параметры"
+    },
+    "courses": {
+      "availability": "Доступность",
+      "courses": "Курс",
+      "course-name": "Название курса",
+      "course-description": "Описание (необязательно)",
+      "cover": "Прикрепить обложку для курса (необязательно)",
+      "course_language": "Язык",
+      "education_level": "Уровень образования",
+      "subdivisions": "Подразделения",
+      "specialities": "Специальность",
+      "specializations": "Специализация",
+      "name": "Название",
+      "description": "Описание",
+      "lesson": "Занятие",
+      "lesson_type": {
+        "title": "Тип занятия",
+        "Assignment": "Задание",
+        "Lecture": "Лекция",
+        "QuizConfiguration": "Тест"
+      },
+      "availability_type": {
+        "all_time": "Всегда доступен",
+        "complete": "Доступно при завершении предыдущего",
+        "step_by_step": "Доступно при завершении предыдущего"
+      },
+      "lesson_data": {
+        "link": "Ссылка",
+        "additional-materials": "Дополнительные материалы"
+      },
+      "lesson_description": {
+        "QuizConfiguration": "Описание теста",
+        "Lecture": "Описание лекции",
+        "Assignment": "Описание задания"
+      },
+      "link": "Ссылка",
+      "to_publish": "Опубликовать",
+      "available_to_publish": "Доступно для публикации",
+      "not_available_to_publish": "Недоступно для публикации",
+      "slot_level": {
+        "section": {
+          "level": "Раздел"
+        },
+        "subsection": {
+          "level": "Подраздел"
+        },
+        "theme": {
+          "level": "Тема"
+        },
+        "block": {
+          "level": "Блок"
+        },
+        "lesson": {
+          "level": "Занятие"
+        }
+      }
+    },
+    "lectures": {
+      "additional-materials": "Дополнительные материалы",
+      "lectures": "Лекция",
+      "add-link": "Добавить ссылку",
+      "add-question": "Добавить вопрос для самопроверки",
+      "category-name": "Название категории",
+      "subcategory-name": "Название подкатегории (необязательно)",
+      "lecture-name": "Название лекции",
+      "lecture-content": "Содержимое лекции",
+      "lecture-description": "Описание лекции",
+      "video": "Выберите видео",
+      "question-title": "Вопрос для самопроверки",
+      "text": "Текст"
+    },
+    "quiz": {
+      "add_material": "Добавить материал",
+      "answer_option": "Вариант ответа",
+      "answer_options": "Варианты ответов",
+      "answer_text": "Текст вопроса",
+      "contents": "Вопросы",
+      "group": "Группа",
+      "group_accordance_description": "Создайте вопрос на установление соответствий. Порядок отображения вариантов будет случайным.",
+      "history": "История",
+      "left_pair": "Термин",
+      "manual_check": "Проверка будет производится в ручном режиме",
+      "text-with-gaps-clue": {
+        "drag_and_drop": "Введите текст целиком и отметьте двойными звездочками **ваше слово** все пропуски",
+        "dropdown": "Отметьте звездочками пропуски **ваше слово** и для каждого укажите верный вариант ответа",
+        "custom": "Отметьте звездочками пропуски **ваше слово** и для каждого укажите возможные варианты ответа"
+      },
+      "match": "Соответствие",
+      "matches": "Соответствия",
+      "micro_required": "Обязательно наличие микрофона. Вы можете записать аудио длительностью не более 3 минут.",
+      "answer_to_question": "Ответ на вопрос",
+      "only-speed-reading": "Доступно только для режима тестирования 'Скорочтение'",
+      "preview": "Просмотр",
+      "results": "Результаты",
+      "right_pair": "Соответствие",
+      "stop-recording": "остановить запись голоса",
+      "start-recording": "нажмите чтобы записать голос",
+      "text": "Текст",
+      "form": {
+        "point-label": "Баллов на {points}",
+        "all-point": "Общий балл",
+        "add-option": "Добавить вариант",
+        "add-lecture": "Добавить лекцию",
+        "add-pair": "Добавить пару",
+        "add-word": "Добавить слово",
+        "add-sentence": "Добавить предложение",
+        "save-text": "Сохранить текст",
+        "lecture-description": "Пояснение к лекции",
+        "lecture-title": "Лекция",
+        "answer": "Ответ",
+        "answer-multiple": "Вариант ответа",
+        "answer-number": "Введите число",
+        "answer-text": "Введите текст",
+        "group": "Группа",
+        "points": "Баллы",
+        "general_points": "0 баллов | {count} балл | {count} балла | {count} баллов",
+        "description": "Описание",
+        "time-event": "Время на прохождение теста",
+        "load-file": "Загрузить аудиофайл",
+        "remove-file-header": "Удалить файл?",
+        "remove-file-text": "Вы точно хотите удалить аудиофайл?",
+        "type-accordance": "Тип соответствия",
+        "add-image": "Добавить фото",
+        "add-audio": "Добавить аудио",
+        "upload-image": "Загрузить фото",
+        "upload-audio": "Загрузить аудио",
+        "upload-video": "Загрузить видео"
+      },
+      "quiz-preview": {
+        "order-title": "Вопрос {order}"
+      },
+      "quiz-results": {
+        "correct-answers-number": "Правильных ответов нет | Нужно выбрать {count} правильный ответ | Нужно выбрать {count} правильных ответа | Нужно выбрать {count} правильных ответов",
+        "correct-answer-number-type": "Нужно ввести число",
+        "correct-answer-text-type": "Нужно ввести текст",
+        "correct-label": "Верный ответ",
+        "answer-user": "Ответ студента"
+      },
+      "verbal-type": {
+        "audio": "Вы можете загрузить аудио в формате mp3. Файл не должен превышать 1 ГБ",
+        "audio-btn": "Добавить аудио",
+        "photo": "Вы можете загрузить фото .jpg, .jpeg, .png, .gif. Файл не должен превышать 1 ГБ",
+        "photo-btn": "Добавить картинку/фото",
+        "video": "Вы можете загрузить видео в формате m4v, vob, mpeg, mp4, mov. Файл не должен превышать 1 ГБ",
+        "video-btn": "Добавить видео",
+        "voice": "Обязательно наличие микрофона. Вы можете записать аудио длительностью не более 5 минут."
+      }
+    },
+    "video": {
+      "viewing": "Просмотр"
+    },
+    "webinar": {
+      "stream": "Трансляция",
+      "admin": "Администраторы",
+      "speaker": "Спикеры",
+      "viewer": "Зрители",
+      "not-started": "Вебинар еще не начался.",
+      "start-time": "Время начала: ",
+      "webinar-expired": "Сожалеем, но вебинар уже прошел"
+    }
+  },
+  "pages": {
+    "result": {
+      "detailed_result": "Подробный результат",
+      "test-result": "Результаты тестирования",
+      "manual-check": "Вопросы для ручной проверки",
+      "check-stat": "Проверено {checked}/{total}",
+      "question-number": "Вопрос {question_position}",
+      "correct-answer": "Верный ответ",
+      "incorrect-answer": "Неверный ответ",
+      "teacher-comment": "Комментарий от преподавателя",
+      "leave": "Выйти",
+      "leave-header": "Выйти со страницы",
+      "leave-text": "Вы уверены, что хотите выйти со страницы? Все несохраненные данные будут утеряны.",
+      "intermediate-save-header": "Проверено {checked}/{total} вопросов теста",
+      "intermediate-save-text": "Мы сохраним результаты проверки. Вы сможете продолжить позже.",
+      "save-header": "Все вопросы проверены",
+      "save-text": "Вы подтверждаете проверку теста.\n Вернуться к редактированию будет нельзя. \nСтатус теста поменяется на “проверено” и будет отображаться во вкладке \n“Проверенные тесты”.",
+      "audio_question": "Аудио вопрос",
+      "help-placeholder": "Вы можете написать комментарий"
+    },
+    "studio-materials-categories": {
+      "title": "Банк лекций"
+    },
+    "studio-materials-categories-lectures": {
+      "title": "Банк лекций"
+    },
+    "studio-materials-lectures": {
+      "title": "Банк лекций"
+    },
+    "studio-materials-lectures-id-edit": {
+      "title": "Редактирование лекции"
+    },
+    "studio-materials-lectures-new": {
+      "title": "Новая лекция"
+    },
+    "studio-materials-courses": {
+      "title": "Конструктор курсов"
+    },
+    "studio-webinars-id-edit": {
+      "title": "Редактирование онлайн-трансляции"
+    },
+    "studio-courses": {
+      "title": "Конструктор курсов"
+    },
+    "detailed-search": {
+      "title": {
+        "lectures": "Выбор лекции",
+        "assignments": "Выбор задания",
+        "quiz_configurations": "Выбор теста"
+      }
+    },
+    "studio-webinars-new": {
+      "title": "Создание онлайн-трансляции"
+    },
+    "validation": {
+      "not_required": "Необязательно для заполнения",
+      "required": "Поле обязательно для заполнения",
+      "required_id": "Поле обязательно для заполнения",
+      "required_selection": "Выберите значение",
+      "required_if": "Поле обязательно для заполнения",
+      "email": "Неправильно введена почта",
+      "requiredRange": "Поле обязательно для заполнения",
+      "password": "Пароль не совпадает",
+      "dateRange": "Некорректный формат даты",
+      "date": "Некорректный формат даты",
+      "time": "Некорректный формат даты",
+      "dateTime": "Некорректный формат даты",
+      "max": "Превышен лимит количества символов",
+      "notInList": "Значение неуникальное",
+      "nonUnique": "Значение неуникальное",
+      "numeric": "Может содержать только целое значение"
+    },
+    "subservices": {
+      "rector": {
+        "events": {
+          "title": "Мероприятия"
+        },
+        "residual_knowledge_teacher": {
+          "result": {
+            "title": "Результаты тестирования"
+          }
+        }
+      },
+      "testing": {
+        "title": "Тестирование",
+        "quiz-config-list": {
+          "title": "Тесты"
+        },
+        "event": {
+          "title": "Тестирование"
+        },
+        "courses-new": {
+          "title": "Конструктор курсов"
+        },
+        "courses-edit": {
+          "title": "Конструктор курсов"
+        },
+        "lectures-new": {
+          "title": "Новая лекция"
+        },
+        "lectures-edit": {
+          "title": "Редактирование лекции",
+          "title-archived": "Архивированная лекция"
+        },
+        "quiz-config-edit": {
+          "title": "Редактирование теста"
+        },
+        "quiz-config-new": {
+          "title": "Создание теста"
+        },
+        "quiz": {
+          "not_retakeable": "Внимание! Тестирование можно пройти только 1 раз",
+          "not_accessible": "Внимание! Тестирование недоступно",
+          "processing": "Идет Обработка...",
+          "end-reading": "Закончить чтение",
+          "pass-quiz": "Приступить к тестированию",
+          "reading-before": "Нажмите кнопку \"Начать чтение\", у вас будет <strong>{duration}</strong> секунд на чтение текста, затем нужно будет ответить на вопросы теста",
+          "reading-time": "Прошло: {timeReading}",
+          "you-read-text": "Вы прочитали текст, теперь можете приступить к ответам на вопросы",
+          "lecture": "Лекция",
+          "request-help": "Задать вопрос",
+          "send-answer": "Ответить",
+          "back": "Назад",
+          "skip": "Пропустить вопрос",
+          "title": "Teст",
+          "time-on-test": "Время на прохождение теста",
+          "time-expired": "Время вышло",
+          "try-again": "Попробовать cнова",
+          "result": "Результаты теста",
+          "time-event": "Продолжительность тестирования",
+          "is_retakeable": "Возможность пересдачи",
+          "number_of_retakes": "Количество пересдач",
+          "max_points": "Максимальное количество баллов",
+          "questions_count": "Количество вопросов в тесте",
+          "result-text": "Вы набрали {points} из {totalPoints}. Результат теста {gradeName}",
+          "min": "мин",
+          "reading-speed": "Скорость чтения",
+          "spm": "символов/мин | символ/мин | символа/мин | символов/мин",
+          "audio-note": "Прослушайте аудио файл и выберите правильный ответ",
+          "field-placeholder": "Перетащите ответ сюда",
+          "matching-groups-title": "Группы соответствий",
+          "pairs-title": "Пары соответствий",
+          "sequence-title": "Установка последовательности",
+          "verbal-title": "Устный ответ",
+          "detailed-title": "Подробный ответ",
+          "yes": "Да",
+          "no": "Нет",
+          "form": {
+            "point-label": "Баллов на {points}",
+            "all-point": "Общий балл",
+            "add-option": "Добавить вариант",
+            "add-lecture": "Добавить лекцию",
+            "add-pair": "Добавить пару",
+            "save-text": "Сохранить текст",
+            "lecture-description": "Пояснение к лекции",
+            "lecture-title": "Лекция",
+            "answer": "Ответ",
+            "answer-multiple": "Вариант ответа",
+            "answer-number": "Введите число",
+            "answer-text": "Введите текст",
+            "group": "Группа",
+            "points": "Баллы",
+            "general_points": "0 баллов | {count} балл | {count} балла | {count} баллов",
+            "description": "Описание",
+            "time-event": "Время на прохождение теста",
+            "load-file": "Загрузить аудиофайл",
+            "remove-file-header": "Удалить файл?",
+            "remove-file-text": "Вы точно хотите удалить аудиофайл?",
+            "type-accordance": "Тип соответствия",
+            "add-image": "Добавить фото",
+            "add-audio": "Добавить аудио",
+            "upload-image": "Загрузить фото",
+            "upload-audio": "Загрузить аудио"
+          }
+        },
+        "datepicker": {
+          "calendar": {
+            "gmt": "GMT {z}",
+            "week-day": "dd D",
+            "week-day-without-number": "dd",
+            "popup-title": "dddd, D MMMM YYYY",
+            "title": "MMMM YYYY",
+            "title-day": "D MMMM YYYY"
+          },
+          "mask": {
+            "date": "##.##.####",
+            "datetime": "##.##.####, ##:##",
+            "time": "##ч ##м",
+            "duration": "##ч ##м",
+            "range": "##.##.#### - ##.##.####"
+          },
+          "date": "DD.MM.YYYY",
+          "range": "DD.MM.YYYY",
+          "create-update-datetime": "DD.MM.YYYY, HH:mm:ss",
+          "datetime": "DD.MM.YYYY, HH:mm",
+          "time": "HHч mmм",
+          "duration": "HHч mmм",
+          "duration-dynamic": "{hours}ч {minutes}м",
+          "placeholder": "дд/мм/гггг",
+          "base": {
+            "h": "ч",
+            "m": "м"
+          }
+        },
+        "modal": {
+          "actions": {
+            "cancel": "Отменить",
+            "save": "Сохранить",
+            "clone": "Дублировать",
+            "delete": "Удалить"
+          },
+          "titles": {
+            "edit-slot": "Редактирование названия слота",
+            "category-name": "Название",
+            "clone-tests": "Дублировать тест",
+            "delete-tests": "Удалить тест"
+          },
+          "confirmation": {
+            "clone-tests": "Вы точно хотите дублировать тест?",
+            "delete-tests": "Вы точно хотите удалить тест?"
+          }
+        },
+        "attributes": {
+          "quiz-config": {
+            "title": "Название теста",
+            "description": "Описание",
+            "duration": "Время на прохождение",
+            "is_retakeable": "Разрешить пересдачу",
+            "show_detailed_result": "Показывать подробный результат",
+            "free_moving_between_questions": "Разрешить свободное перемещение между вопросами",
+            "display_option": "Вариант отображения",
+            "show_right_answer": "Показывать верный ответ",
+            "not_show_right_answer": "Не показывать верный ответ",
+            "h": "ч",
+            "m": "м",
+            "created_at": "Дата создания",
+            "updated_at": "Дата обновления",
+            "number_retries": "Кол-во попыток",
+            "number_questions": "Кол-во вопросов",
+            "number_points": "Сумма баллов",
+            "preview": "Просмотр",
+            "category_description_text": "Кол-во подкатегорий в выбранной категории:",
+            "subcategory_description_text": "Кол-во вопросов в выбранных подкатегориях:",
+            "author": "Автор"
+          },
+          "categories": {
+            "created_at": "Дата создания",
+            "updated_at": "Дата обновления",
+            "author": "Автор",
+            "name": "Заголовок"
+          },
+          "subcategories": {
+            "name": "Название",
+            "author": "Автор",
+            "created_at": "Дата создания",
+            "updated_at": "Дата обновления"
+          },
+          "lectures": {
+            "name": "Название лекции",
+            "description": "Описание",
+            "content": "Содержимое лекции",
+            "questions": "Вопросы для самопроверки",
+            "attachments": "Дополнительные материалы",
+            "links": "Ссылки на материалы",
+            "author": "Автор",
+            "category": "Название категории",
+            "subcategory": "Название подкатегории",
+            "created_at": "Дата создания",
+            "updated_at": "Дата обновления",
+            "list": {
+              "text": "Текст",
+              "video": "Видео"
+            }
+          },
+          "events": {
+            "date": "Дата",
+            "started_on": "Время начала",
+            "ended_on": "Время окончания",
+            "discipline": "Дисциплина",
+            "place": "Место проведения",
+            "test": "Тест",
+            "groups": "Группы"
+          },
+          "result": {
+            "answered_questions_count": "Отвеченные",
+            "attempt_number": "Попытка",
+            "correct_answers_count": "Верные",
+            "created_at_lteq": "Дата проведения до..",
+            "created_at_gteq": "Дата проведения от..",
+            "course": "Курс",
+            "date_passage": "Дата",
+            "detailed_answer_count": "Вопросы для ручной проверки",
+            "discipline_name": "Дисциплина",
+            "faculty": "Факультет",
+            "finished_at": "Законченно в",
+            "fio": "ФИО студента",
+            "group": "Группа",
+            "points": "Группы",
+            "quiz_instance_title": "Название теста",
+            "result_as_percentage": "Результат, %",
+            "result_as_points": "Результат, баллы",
+            "time_spent": "Затраченное время",
+            "total_questions": "Всего вопросов",
+            "tabs" : {
+              "att_test": "Все тесты",
+              "test_for_check": "Тесты для проверки",
+              "checked_test": "Проверенные тесты"
+            }
+          }
+        },
+        "associations": {
+          "quiz-config": {
+            "tab-title": "Тест",
+            "tab-preview": "Список заданий теста",
+            "add-button": "+ Добавить новый слот",
+            "slot-title": "Слот",
+            "lecture-counter": "Лекции",
+            "lecture-name": "Название лекции",
+            "category": "Категория",
+            "subcategory": "Подкатегория",
+            "lecture-title": "Лекция {index}",
+            "lecture-count": "Сколько лекций добавить",
+            "points-count": "Кол-во баллов за вопрос",
+            "subcategories": "Подкатегории",
+            "subcategories-all-trigger": "Выбрать все подкатегории",
+            "lectures-all-trigger": "Выбрать все лекции",
+            "no-result": "no result",
+            "type": "Тип слота",
+            "lectures": "Лекции"
+          },
+          "lectures": {
+            "lectures": "Лекция"
+          },
+          "quiz-trial": {
+            "question": "Вопрос",
+            "question-list": {
+              "matching_groups": "Группы соответствий",
+              "pairs": "Пары соответствий",
+              "short_text": "Вопрос с коротким ответом",
+              "single_choice": "Единственный выбор",
+              "multiple_choice": "Множественный выбор",
+              "verbal": "Устный ответ",
+              "detailed": "Подробный ответ",
+              "sequence": "Установка последовательности",
+              "text_with_gaps_drag_and_drop": "Пропуски - выбор из общего списка",
+              "text_with_gaps_dropdown_list": "Пропуски - выпадающие списки",
+              "text_with_gaps_custom_answer": "Пропуски - свой вариант"
+            }
+          }
+        },
+        "actions": {
+          "subcategories": {
+            "create-subcategories": "Создать тест",
+            "deletion-confirm": {
+              "subcategories-header": "Удалить подкатегорию",
+              "subcategories-text": "Вы точно хотите удалить подкатегорию?"
+            }
+          },
+          "categories": {
+            "create-categories": "Создать тест",
+            "deletion-confirm": {
+              "categories-header": "Удалить категорию",
+              "categories-text": "Вы точно хотите удалить категорию?"
+            }
+          },
+          "quiz-config": {
+            "create-quiz-config": "Создать тест",
+            "deletion-confirm": {
+              "quiz-config-header": "Удалить тест",
+              "quiz-config-text": "Вы точно хотите удалить тест?"
+            }
+          },
+          "lectures": {
+            "deletion-confirm": {
+              "lectures-header": "Удалить лекцию",
+              "lectures-text": "Вы точно хотите удалить лекцию?",
+              "categories-header": "Удалить категорию",
+              "categories-text": "Вы точно хотите удалить категорию?",
+              "subcategories-header": "Удалить подкатегорию",
+              "subcategories-text": "Вы точно хотите удалить подкатегорию?",
+              "student-header": "Удаление студента",
+              "student-text": "Вы точно хотите удалить этого студента?",
+              "group-header": "Удаление группы",
+              "group-text": "Вы точно хотите удалить эту группу?",
+              "stream-header": "Удаление потока",
+              "stream-text": "Вы точно хотите удалить этот поток?",
+              "curator-header": "Удаление куратора",
+              "curator-text": "Вы точно хотите удалить этого куратора?",
+              "teacher-header": "Удаление преподавателя",
+              "teacher-text": "Вы точно хотите удалить этого преподавателя?",
+              "speaker-header": "Удаление спикера",
+              "speaker-text": "Вы точно хотите удалить этого спикера?",
+              "admin-header": "Удаление администратора",
+              "admin-text": "Вы точно хотите удалить этого администратора?",
+              "viewer-header": "Удаление зрителя",
+              "viewer-text": "Вы точно хотите удалить этого зрителя?"
+            },
+            "duplicate-confirm": {
+              "lectures-header": "Дублировать лекцию",
+              "lectures-text": "Вы точно хотите дублировать лекцию?",
+              "course-header": "Дублировать курс",
+              "course-text": "Вы точно хотите дублировать курс?"
+            }
+          },
+          "duplicate": "Дублировать",
+          "delete": "Удалить",
+          "edit": "Редактировать",
+          "clone": "Копировать",
+          "view_params": "Параметры курса",
+          "content_params": "Содержание курса",
+          "edit_params": "Редактировать параметры курса",
+          "publish": "Опубликовать",
+          "unpublish": "Отменить публикацию",
+          "trash": "Удалить",
+          "archive": "Архивировать",
+          "unarchive": "Разархивировать"
+        },
+        "table": {
+          "actions": {
+            "create-event-config": "Создать мероприятие",
+            "create-quiz-config": "Создать тест",
+            "course": "Создать",
+            "create-lecture": "Создать лекцию",
+            "select": "Выбрать",
+            "duplicate-confirm": {
+              "lectures-header": "Дублировать лекцию",
+              "lectures-text": "Вы точно хотите дублировать лекцию?"
+            },
+            "category": "Категория",
+            "subcategory": "Подкатегория",
+            "lecture": "Лекция",
+            "archive": {
+              "categories": {
+                "lecture-header": "Архивировать категорию",
+                "lecture-text": "Вы точно хотите архивировать категорию? Все содержимое будет архивировано автоматически."
+              },
+              "subcategories": {
+                "lecture-header": "Архивировать подкатегорию",
+                "lecture-text": "Вы точно хотите архивировать подкатегорию? Все содержимое будет архивировано автоматически."
+              },
+              "lectures": {
+                "lecture-header": "Архивировать лекцию",
+                "lecture-text": "Вы точно хотите архивировать лекцию?"
+              }
+            },
+            "unarchive": {
+              "categories": {
+                "question-header": "Разархивировать категорию",
+                "question-text": "Вы точно хотите разархивировать категорию? Все содержимое будет архивировано автоматически."
+              },
+              "subcategories": {
+                "question-header": "Разархивировать подкатегорию",
+                "question-text": "Вы точно хотите разархивировать подкатегорию? Все содержимое будет разархивировано автоматически."
+              },
+              "lectures": {
+                "question-header": "Разархивировать лекцию",
+                "question-text": "Вы точно хотите разархивировать лекцию?"
+              }
+            },
+            "show-filters":"Фильтры"
+          }
+        },
+        "layout": {
+          "table": {
+            "empty": "Создайте тест"
+          }
+        }
+      },
+      "tests": {
+        "title": "Тесты",
+        "empty": "Тестирований (мероприятий) на данный момент не назначено/нет"
+      }
+    }
+  },
+  "toasts": {
+    "documents": {
+      "search_error": "Ошибка поиска документов",
+      "load_error": "Документы не загружены",
+      "save_error": "Документы не сохранены",
+      "field": {
+
+      }
+    },
+    "profile": {
+      "search_error": "Ошибка поиска профиля",
+      "load_error": "Данные профиля не загружены",
+      "save_error": "Данные профиля не сохранены"
+    },
+    "client_road": {
+      "load_state_error": "Статус клиента в системе не загружен",
+      "save_state_error": "Статус клиента в ситсеме не сохранен"
+    },
+    "assignments": {
+      "submission": {
+        "success-post": "Решение отправлено успешно",
+        "success-update": "Решение обновлено успешно",
+        "error-post": "При отправке произошла ошибка",
+        "empty-post": "Ошибка отправки: Поля не заполнены",
+        "grade-set": "Оценка успешно выставлена"
+      }
+    },
+    "category": {
+      "already_taken": "Такое название уже занято",
+      "not_written": "Поле не должно быть пустым",
+      "coming_soon": "Редактирование будет доступно в следующем обновлении",
+      "too_big": "Название не должно превышать 110 символов"
+    },
+    "columns-set": {
+      "success-updated": "Настройки колонок обновлены успешно",
+      "failed-update": "Ошибка обновления настройки колонок"
+    },
+    "courses": {
+      "edit": "Режим редактирования активирован",
+      "done": "Редактирование завершено",
+      "unknown-data-type": "Неизвестный тип данных"
+    },
+    "course_item": {
+      "updated": "Данные обновлены успешно",
+      "update_failed": "Ошибка обновления данных",
+      "no_data": "Одно или несколько полей не заполнены",
+      "deleted": "\"{courseName}\" успешно удален"
+    },
+    "course_user": {
+      "no_data": "Пользователь не выбран",
+      "added-to-bookmarks": "Курс добавлен в избранное",
+      "removed-from-bookmarks": "Курс удален из избранного"
+    },
+    "custom_attributes": {
+      "dictionary_error": "Для дополнительного поля не указан/отсутствует справочник"
+    },
+    "datetime": {
+      "errors": {
+        "set-date": "Ошибка установки даты"
+      }
+    },
+    "delete": {
+      "error": "Ошибка удаления",
+      "success": "Успешно удалено"
+    },
+    "dialog": {
+      "user_ids": {
+        "invalid": "Не корректный пользователь"
+      }
+    },
+    "editor": {
+      "edit": "Режим редактирования активирован",
+      "done": "Редактирование завершено"
+    },
+    "exam": {
+      "student-ready": "Студент {name} готов отвечать",
+      "started": "Экзамен начался",
+      "err-start": "Ошибка при старте экзамена",
+      "not-teacher": "Куратор не назначен на экзамен"
+    },
+    "external-video": {
+      "error": "Ошибка прикрепления видео"
+    },
+    "files": {
+      "uploaded_chat_avatar": "Аватар чата успешно загружен",
+      "uploaded": "Документ успешно загружен",
+      "uploaded-file": "Файл успешно загружен",
+      "failed": "Во время загрузки произошла ошибка",
+      "errors": {
+        "no_file_found": "Один или несколько файлов не могут быть получены",
+        "content_type_invalid": "Недопустимое расширение файла",
+        "avatar_error": "Не удалось изменить аватар"
+      }
+    },
+    "forms": {
+      "created": "Объект успешно сохранен",
+      "updated": "Объект успешно обновлен",
+      "create_failed": "Не удалось сохранить объект",
+      "update_failed": "Не удалось обновить объект",
+      "clone-course_failed": "Не удалось дублировать курс",
+      "password_updated": "Пароль успешно изменен",
+      "password_failed": "Не удалось изменить пароль",
+      "invalid_credentials": "Неправильно введен пароль",
+      "file_size_out_of_range": "Недопустимый размер файла",
+      "avatar_updated": "Аватар успешно изменен",
+      "upload_avatar_failed": "Не удалось изменить аватар",
+      "user_info_updated": "Данные успешно изменены",
+      "user_info_update_failed": "Не удалось изменить данные",
+      "validate_error": "Ошибка валидации",
+      "tests-create-success": "Лекция успешно сохранена",
+      "tests-create-failed": "Не удалось сохранить лекцию"
+    },
+    "filters": {
+      "filter_exists": "Фильтр с данными параметрами уже существует",
+      "validation_error": "Один или несколько фильтров указаны неверно"
+    },
+    "im": {
+      "chat_name_failed": "Укажите название чата"
+    },
+    "modal": {
+      "failed_delete": "Ошибка удаления курса",
+      "created": "Объект успешно создан",
+      "failed_created": "Нет возможности создать данный объект",
+      "courses_deleted": "Курс удален",
+      "deleted": "Объект успешно удален",
+      "failed_deleted": "Нет возможности удалить данный объект",
+      "hidden": "Объект скрыт",
+      "visible": "Объект виден",
+      "delete_confirmation": "Необходимо подтвердить удаление объекта.",
+      "notice": "Другие объекты ссылаются на него",
+      "archived": "Объект успешно архивирован",
+      "failed_archive": "Не удалось заархивировать",
+      "unarchived": "Объект успешно разархивирован",
+      "failed_unarchive": "Не удалось разархивировать",
+      "edited": "Объект успешно изменен",
+      "failed_edited": "Нет возможности изменить данный объект",
+      "clone": "Курс скопирован. Его можно найти на вкладке \"Мои курсы\" или \"Все курсы\"",
+      "failed_clone": "Не удалось скопировать курс"
+
+    },
+    "portfolio": {
+      "success": "Новая работа добавлена в портфолио",
+      "error": "При добавлении новой работы произошла ошибка",
+      "updated": "Данные обновлены успешно",
+      "update_failed": "Ошибка обновления данных"
+    },
+    "ok": "Успех",
+    "error": "Ошибка",
+    "module_error": "Модуль находится в разработке",
+    "not_completed": "Модуль находится в разработке",
+    "rights": {
+      "rejected": "Ошибка доступа: Недостаточно прав"
+    },
+    "settings": {
+      "attribute_saved": "Данные сохранены",
+      "attribute_saved_failed": "Ошибка сохранения",
+      "has_empty_fields": "Ошибка валидации данных",
+      "choose_source": "Укажите источник",
+      "choose_dictionary": "Укажите справочник"
+    },
+    "study_groups": {
+      "not_selected": "Не выбрана учебная группа"
+    },
+    "course": {
+      "not_selected": "Не выбран учебный курс"
+    },
+    "study_group_student": {
+      "no_data": "Студент не выбран",
+      "validation_error": "Студент уже имеет группу в указанном периоде"
+    },
+    "lectures": {
+      "error_limit_chars": "Превышен лимит количества символов",
+      "successfully_duplicated": "Лекция успешно дублирована",
+      "generic_error": "Не удалось дублировать лекцию"
+    },
+    "quizzes": {
+      "forbidden": "Нельзя проходить больше одного теста одновременно",
+      "answered": "Ответ на этот вопрос уже был отправлен",
+      "finished": "Время на тест закончилось",
+      "invalid": "Ответ не был распознан",
+      "init_error": "Ошибка инициализации теста",
+      "error_limit_chars": "Превышен лимит количества символов: {limit}"
+    },
+    "webinar_user": {
+      "no_data": "Пользователь не выбран"
+    },
+    "student": {
+      "course-detached": "Курс удален из списка курсов студента"
+    }
+  },
+  "speciality": "специальностей | специальность | специальности | специальностей",
+  "specialization": "специализаций | специализация | специализации | специализаций",
+  "speciality_count": "нет специальностей | {count} специальность | {count} специальности | {count} специальностей",
+  "specialization_count": "нет специализаций | {count} специализация | {count} специализации | {count} специализаций"
+}
