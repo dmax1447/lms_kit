@@ -1,5 +1,5 @@
 import { getAvatar } from '../helpers/user-helper'
-import { __service } from '../config.json'
+const __service = 'courses'
 const serviceLink = __service.replaceAll('-', '/')
 export default {
   getLinkToItem: (item) => `/subservices/${serviceLink}/course/${item.id}`,
@@ -106,7 +106,7 @@ export default {
 
   emptyTable: {
     text: 'courses',
-    imgSrc: require('../assets/images/table/empty-courses.png'),
+    imgSrc: require('@/assets/images/table/empty-courses.png'),
   },
 
   filtersSection: 'courses',

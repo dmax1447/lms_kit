@@ -1,10 +1,36 @@
 import Vue from 'vue';
+import VueI18n from "vue-i18n";
+import VueWait from 'vue-wait'
 import singleSpaVue from 'single-spa-vue';
 
 import App from './App.vue';
 import router from './router'
+import ru from './locales/ru.json'
+import './assets/stylesheets/application.scss'
+
+
+const messages = {
+  en: {
+    message: {
+      hello: 'hello world'
+    }
+  },
+  ru: {
+    courses: ru
+  }
+}
+
+// Create VueI18n instance with options
+
 
 Vue.config.productionTip = false;
+Vue.use(VueI18n)
+Vue.use(VueWait)
+const i18n = new VueI18n({
+  locale: 'ru', // set locale
+  messages, // set locale messages
+})
+
 
 const vueLifecycles = singleSpaVue({
   Vue,
@@ -23,7 +49,10 @@ const vueLifecycles = singleSpaVue({
         },
       });
     },
-    router
+    i18n,
+    router,
+    wait: new VueWait(),
+
   },
 });
 
