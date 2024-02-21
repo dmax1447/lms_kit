@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueI18n from "vue-i18n";
 import VueWait from 'vue-wait'
+import dayjs from "dayjs";
 import singleSpaVue from 'single-spa-vue';
 
 import App from './App.vue';
@@ -20,7 +21,13 @@ const messages = {
   }
 }
 
-// Create VueI18n instance with options
+Object.defineProperties(Vue.prototype, {
+  $dayjs: {
+    get() {
+      return dayjs
+    }
+  }
+})
 
 
 Vue.config.productionTip = false;

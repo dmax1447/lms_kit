@@ -21,6 +21,17 @@ export default {
       time: 0
     }
   },
+  created() {
+    console.log(this.$root)
+    this.$root.$on('custom_message', (evt) => {
+      console.log('received custom message', evt)
+    })
+  },
+  mounted() {
+    setTimeout(() => {
+      this.$root.$emit('custom_message', {message: 'Hello!'})
+    }, 1000)
+  }
 
 
 }
