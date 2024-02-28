@@ -7,7 +7,7 @@
 
     <h2>Root Route</h2>
     <div class="wrap">
-      <SInput v-model="val"/>
+      <SInput v-model="val" label="input" placeholder="placeholder"/>
       <SButton variant="primary" size="small">button</SButton>
     </div>
 
@@ -16,12 +16,10 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 import {SButton, SInput } from '@synergy/lms-ui-kit'
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld,
     SButton,
     SInput
   },

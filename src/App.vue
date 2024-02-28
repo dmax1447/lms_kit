@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/table">Table</router-link>
-    </nav>
     <router-view/>
+    <SvgSprite/>
   </div>
 </template>
 <script>
+import {emitter} from '@lms/styleguide'
+import { nav } from "@/router";
+import SvgSprite from "@/components/SvgSprite.vue";
 
 export default {
-  name: "app",
+  name: "KitApp",
   components: {
+    SvgSprite
   },
   data() {
     return {
@@ -22,18 +23,8 @@ export default {
     }
   },
   created() {
-    console.log(this.$root)
-    this.$root.$on('custom_message', (evt) => {
-      console.log('received custom message', evt)
-    })
+    emitter.emit('app:set_nested_nav', nav)
   },
-  mounted() {
-    setTimeout(() => {
-      this.$root.$emit('custom_message', {message: 'Hello!'})
-    }, 1000)
-  }
-
-
 }
 </script>
 

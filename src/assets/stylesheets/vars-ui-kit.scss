@@ -156,10 +156,3 @@
     background-color: $c;
   }
 }
-
-// Weight
-// @each $n, $w in light 300, regular 400, strong 500 {
-//   .fw-#{$n} {
-//     font-weight: $w;
-//   }
-// }

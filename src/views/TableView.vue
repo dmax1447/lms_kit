@@ -27,13 +27,11 @@
 </template>
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 import {SButton, SInput, STableWithHeader } from '@synergy/lms-ui-kit'
 import tableConfig from '../models/_t-courses'
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld,
     SButton,
     SInput,
     STableWithHeader

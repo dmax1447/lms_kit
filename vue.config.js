@@ -6,6 +6,7 @@ module.exports = defineConfig({
     output: {
       libraryTarget: 'system',
     },
+    externals: [/^@lms\/.+/],
   },
   chainWebpack: config => {
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
