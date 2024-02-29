@@ -3,23 +3,51 @@
     <div class="columns">
       <div class="elements">
         <form>
-          <SInput v-model="form.input" label="input"/>
-          <SCheckbox v-model="form.checkbox" label="checkbox"/>
-          <div class="pb20">
-            <SCheckboxFn :checked="form.checkboxFn" @change="onCheckboxFnChange" label="checkboxFn"/>
-          </div>
-          <div class="pb20">
-            <SCheckboxToggleFn class="pb20" :checked="form.checkboxToggleFn" @change="onCheckboxToggleFnChange" label="SCheckboxToggleFn"/>
-          </div>
-          <SDatePicker v-model="form.datePicker" label="datepiker" picker-type="date"/>
-          <LazyUploader class="mb20" v-model="form.lazyUploader" multiple name="lazyUploader"/>
-          <SUploader v-model="form.uploader"/>
+          <h2>Ui-kit components</h2>
+          <fieldset>
+            <SInput v-model="form.input" label="input"/>
+            <SCheckbox v-model="form.checkbox" label="checkbox"/>
+            <div class="pb20">
+              <SCheckboxFn :checked="form.checkboxFn" @change="onCheckboxFnChange" label="checkboxFn"/>
+            </div>
+            <div class="pb20">
+              <SCheckboxToggleFn class="pb20" :checked="form.checkboxToggleFn" @change="onCheckboxToggleFnChange" label="SCheckboxToggleFn"/>
+            </div>
+            <SDatePicker v-model="form.datePicker" label="datepiker" picker-type="date"/>
+            <SUploader class="mb20" v-model="form.uploader"/>
+            <SMultiselectWithReset v-model="form.multiselectReset" :options="options" track-by="id" item-label="title" label="SMultiselectWithReset"/>
+            <SMultiselectWithCheckbox v-model="form.multiselectCheckbox" :options="options" track-by="id" item-label="title" label="SMultiselectWithCheckbox"/>
+            <SRadioGroup v-model="form.radioGroup" :list="radioGroupValues" valueField="value" labelField="label" size="24px" :disabled="false" />
+            <STinyMCE
+                counterIsVisible
+                :maxCounterValue="3000"
+                language="ru"
+                toolbarSettings="undo redo | codesample | bold italic underline strikethrough | formula | link image code | formatselect | alignleft aligncenter alignright alignjustify | outdent indent | numlist bullist checklist | forecolor backcolor casechange permanentpen formatpainter removeformat | charmap emoticons | table tabledelete | tableprops tablerowprops tablecellprops | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol"
+                validationMode="aggressive"
+                menubar
+                :statusbar="false"
+                plugins="formula advlist lists checklist pagebreak anchor table autoresize wordcount code link charmap image"
+                toolbarMode="sliding"
+                placeholder="example placeholder"
+                :height="268"
+                :maxHeight="1119"
+                value="123"
+                :minHeight="268"
+            />
+          </fieldset>
+
+
+          <h2>Local components</h2>
+          <fieldset>
+            <LazyUploader class="mb20" v-model="form.lazyUploader" multiple name="lazyUploader"/>
+          </fieldset>
+
 
         </form>
 
       </div>
       <div class="column">
-        <pre>{{form}}</pre>
+        <pre class="data">{{form}}</pre>
       </div>
     </div>
 
@@ -28,7 +56,7 @@
   </div>
 </template>
 <script>
-import {SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader } from '@synergy/lms-ui-kit'
+import {SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader, SMultiselectWithCheckbox, SMultiselectWithReset, SRadioGroup, STinyMCE, } from '@synergy/lms-ui-kit'
 import LazyUploader from '@/components/kit/LazyUploader/LazyUploader.vue'
 import Test from '@/components/Test.vue'
 
@@ -55,16 +83,75 @@ const mockFiles = [
     "size": 13847
   }
 ]
+const options = [
+      {
+        id: '1',
+        title: 'Option 1',
+      },
+      {
+        id: '2',
+        title: 'Option 2',
+      },
+      {
+        id: '3',
+        title: 'Подкатегория 3',
+      },
+      {
+        id: '4',
+        title: 'Подкатегория 4',
+      },
+      {
+        id: '5',
+        title: 'Подкатегория 5',
+      },
+      {
+        id: '6',
+        title: 'Подкатегория 6',
+      },
+      {
+        id: '7',
+        title: 'Подкатегория 7',
+      },
+      {
+        id: '8',
+        title: 'Подкатегория 8',
+      },
+      {
+        id: '9',
+        title: 'Подкатегория 9',
+      },
+      {
+        id: '10',
+        title: 'Подкатегория 10',
+      },
+      {
+        id: '11',
+        title: 'Подкатегория 11 Подкатегория 11 Подкатегория 11 Подкатегория 11 Подкатегория 11 Подкатегория 11',
+      },
+    ]
+const radioGroupValues = [
+  {
+    "value": 1,
+    "label": "Опция 1"
+  },
+  {
+    "value": 2,
+    "label": "Опция 2"
+  }
+]
 
 export default {
   name: 'HomeView',
   components: {
-    SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader,
+    SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader, SMultiselectWithCheckbox, SMultiselectWithReset, SRadioGroup, STinyMCE,
     LazyUploader,
     Test
   },
   data() {
     return {
+      options,
+      radioGroupValues,
+
       form: {
         input: '',
         checkbox: false,
@@ -73,9 +160,9 @@ export default {
         datePicker: '',
         lazyUploader: mockFiles,
         uploader: [mockFiles[1]],
-        multiselectCheckbox: null,
-        multiselectReset: null,
-        radioGroup: []
+        multiselectReset: [options[1]],
+        multiselectCheckbox: [options[1]],
+        radioGroup: 1,
       }
     }
   },
@@ -95,8 +182,14 @@ export default {
   width: 100%;
   gap: 30px;
 }
+fieldset {
+  padding: 10px;
+  border: 1px dashed gray;
+  margin-bottom: 36px;
+}
+
 .elements {
-  width: 500px;
+  width: 600px;
 }
 .column {
   width: 50%;
@@ -107,5 +200,9 @@ export default {
 }
 .mb20 {
   margin-bottom: 20px;
+}
+.data {
+  max-width: 300px;
+  font-size: 14px;
 }
 </style>

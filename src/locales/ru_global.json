@@ -1,0 +1,153 @@
+{
+  "datepicker": {
+    "calendar": {
+      "gmt": "GMT {z}",
+      "week-day": "dd D",
+      "week-day-without-number": "dd",
+      "popup-title": "dddd, D MMMM YYYY",
+      "title": "MMMM YYYY",
+      "title-day": "D MMMM YYYY"
+    },
+    "mask": {
+      "date": "##.##.####",
+      "datetime": "##.##.####, ##:##",
+      "time": "##ч ##м",
+      "range": "##.##.#### - ##.##.####"
+    },
+    "date": "DD.MM.YYYY",
+    "datetime": "DD.MM.YYYY, HH:mm",
+    "create-update-datetime": "DD.MM.YYYY, HH:mm:ss",
+    "duration": "HHч mmм",
+    "duration-dynamic": "{hours}ч {minutes}м",
+    "placeholder": "дд/мм/гггг",
+    "base": {
+      "h": "ч",
+      "m": "м"
+    }
+  },
+  "multiselect": {
+    "base": {
+      "choose": "Выберите значение",
+      "deselect": "Нажмите Enter, чтобы снять выбор",
+      "no-result": "По Вашему запросу ничего не найдено",
+      "empty-list": "Список пуст",
+      "placeholder": "Поиск...",
+      "select": "Нажмите Enter для выбора",
+      "selected": "Выбрано"
+    },
+    "org_structure": {
+      "position": "Поиск должности",
+      "employee": "Поиск сотрудника"
+    },
+    "grade": {
+      "choose-placeholder": "Выберите балл"
+    },
+    "study_group": {
+      "name": "Название",
+      "placeholder": "Поиск учебной группы"
+    },
+    "study_area": {
+      "reset_option": "Без предметной области"
+    },
+    "speciality": {
+      "reset_option": "Без специальности"
+    },
+    "speciality_profile": {
+      "reset_option": "Без специализации"
+    },
+    "speciality-profile": {
+      "reset_option": "Без специализации"
+    },
+    "roles": {
+      "name": "Роли"
+    },
+    "stream": {
+      "reset_option": "Без потока"
+    },
+    "study_level": {
+      "reset_option": "Без уровня образования"
+    },
+    "study_form": {
+      "reset_option": "Без формы обучения"
+    },
+    "author": {
+      "reset_option": "Без автора"
+    },
+    "branch": {
+      "reset_option": "Без филиала"
+    },
+    "branch_in_profile": {
+      "reset_option": "Без филиала"
+    },
+    "faculty": {
+      "reset_option": "Без факультета"
+    },
+    "category": {
+      "placeholder": "Выберите категорию"
+    },
+    "subcategory": {
+      "placeholder": "Выберите подкатегорию"
+    },
+    "type_field": {
+      "placeholder": "Выберите тип поля"
+    },
+    "library": {
+      "placeholder": "Выберите пункт"
+    },
+    "module_course": {
+      "placeholder": "Выберите тему"
+    },
+    "module_user": {
+      "first_name": "Имя",
+      "placeholder": "Поиск пользователя"
+    },
+    "type": {
+      "placeholder": "Выберите тип контента"
+    },
+    "filters": {
+      "placeholder": "Выберите параметр фильтрации"
+    },
+    "forms": {
+      "placeholder": "Начните вводить значение"
+    },
+    "multiple": {
+      "placeholder": "Выберите значение"
+    },
+    "columns": {
+      "placeholder": "Введите название поля"
+    },
+    "states": {
+      "placeholder": "Выберите статус"
+    },
+    "video_source": {
+      "placeholder": "Выберите источник видео"
+    },
+    "cover_video": {
+      "reset_option": "Без видео обложки"
+    },
+    "choose": {
+      "placeholder": "Выберите"
+    },
+    "course": {
+      "name": "Название",
+      "placeholder": "Выберите курс",
+      "reset_option": "Без курса"
+    },
+    "language": {
+      "placeholder": "Выберите язык"
+    },
+    "questions": {
+      "all_questions": "Все вопросы",
+      "my_questions": "Мои вопросы",
+      "all_active_questions": "Все активные",
+      "archive_questions": "В архиве"
+    }
+  },
+  "tinymce": {
+    "plugins": {
+      "formula": {
+        "modalTitle": "Редактор формул"
+      }
+    }
+  }
+}

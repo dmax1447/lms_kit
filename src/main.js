@@ -3,10 +3,15 @@ import VueI18n from "vue-i18n";
 import VueWait from 'vue-wait'
 import dayjs from "dayjs";
 import singleSpaVue from 'single-spa-vue';
+import PerfectScrollbar from 'vue2-perfect-scrollbar'
+import vClickOutside from 'v-click-outside'
+import adaptive from "@/plugins/adaptive";
+import 'vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css'
 
 import App from './App.vue';
 import router from './router'
-import ru from './locales/ru.json'
+import ru_module from './locales/ru_module.json'
+import ru_global from './locales/ru_global.json'
 import './assets/stylesheets/application.scss'
 
 
@@ -17,7 +22,8 @@ const messages = {
     }
   },
   ru: {
-    courses: ru
+    ...ru_global,
+    courses: ru_module
   }
 }
 
@@ -26,6 +32,11 @@ Object.defineProperties(Vue.prototype, {
     get() {
       return dayjs
     }
+  },
+  $adaptive: {
+    get() {
+      return adaptive
+    }
   }
 })
 
@@ -33,10 +44,13 @@ Object.defineProperties(Vue.prototype, {
 Vue.config.productionTip = false;
 Vue.use(VueI18n)
 Vue.use(VueWait)
+Vue.use(PerfectScrollbar)
+Vue.use(vClickOutside)
 const i18n = new VueI18n({
   locale: 'ru', // set locale
   messages, // set locale messages
 })
+window.$i18n = i18n
 
 
 const vueLifecycles = singleSpaVue({
