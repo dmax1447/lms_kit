@@ -37,9 +37,19 @@
           </fieldset>
 
 
-          <h2>Local components</h2>
+          <h2>Local components -> Kit</h2>
           <fieldset>
-            <LazyUploader class="mb20" v-model="form.lazyUploader" multiple name="lazyUploader"/>
+            <LazyUploader class="mb20" v-model="form.lazyUploader" multiple name="lazyUploader" label="LazyUploader"/>
+          </fieldset>
+
+          <h2>Sandbox components  -> Kit</h2>
+          <fieldset>
+            <BaseUploader v-model="form.baseUploader" multiple name="BaseUplader" label="BaseUploader"/>
+          </fieldset>
+
+          <h2>Front-Libs components</h2>
+          <fieldset>
+            <SelectWithGroups :config="sgConfig"/>
           </fieldset>
 
 
@@ -57,6 +67,8 @@
 </template>
 <script>
 import {SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader, SMultiselectWithCheckbox, SMultiselectWithReset, SRadioGroup, STinyMCE, } from '@synergy/lms-ui-kit'
+import { SelectWithGroups } from '@synergy/front-libs'
+import BaseUploader from "@/components/sandbox/BaseUploader/BaseUploader.vue";
 import LazyUploader from '@/components/kit/LazyUploader/LazyUploader.vue'
 import Test from '@/components/Test.vue'
 
@@ -139,19 +151,54 @@ const radioGroupValues = [
     "label": "Опция 2"
   }
 ]
+const sgConfig = {
+  rootEntity: {
+    label: 'Специальность',
+    i18nKey: `course.speciality`,
+    nameKey: 'full_name',
+    countKey: 'amount_specializations',
+    fetchItems: (query) => {
+      const params = {
+        q: {
+          full_name_i_cont: query,
+        },
+      }
+      return this.fetchSpecialities(query ? params : {})
+    },
+  },
+  nestedEntity: {
+    label: 'Специализация',
+    i18nKey: `course.specialization`,
+    nameKey: 'full_name',
+    notSpecifiedLabel: 'Без специализации',
+    fetchItems: ({ rootEntityId, query }) => {
+      const params = {
+        q: {
+          speciality_id_eq: rootEntityId,
+        },
+      }
+      if (query) {
+        params.q.full_name_i_cont = query
+      }
+      return () => {}
+    },
+  },
+}
 
 export default {
   name: 'HomeView',
   components: {
     SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader, SMultiselectWithCheckbox, SMultiselectWithReset, SRadioGroup, STinyMCE,
     LazyUploader,
+    BaseUploader,
+    SelectWithGroups,
     Test
   },
   data() {
     return {
       options,
       radioGroupValues,
-
+      sgConfig,
       form: {
         input: '',
         checkbox: false,
@@ -159,10 +206,12 @@ export default {
         checkboxToggleFn: false,
         datePicker: '',
         lazyUploader: mockFiles,
+        baseUploader: [],
         uploader: [mockFiles[1]],
         multiselectReset: [options[1]],
         multiselectCheckbox: [options[1]],
         radioGroup: 1,
+        sgValue: {}
       }
     }
   },
