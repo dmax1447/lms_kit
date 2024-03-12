@@ -67,7 +67,7 @@
 </template>
 <script>
 import {SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader, SMultiselectWithCheckbox, SMultiselectWithReset, SRadioGroup, STinyMCE, } from '@synergy/lms-ui-kit'
-import { SelectWithGroups } from '@synergy/front-libs'
+import SelectWithGroups from "@/components/front-libs/SelectWithGroups.vue";
 import BaseUploader from "@/components/sandbox/BaseUploader/BaseUploader.vue";
 import LazyUploader from '@/components/kit/LazyUploader/LazyUploader.vue'
 import Test from '@/components/Test.vue'
@@ -151,39 +151,6 @@ const radioGroupValues = [
     "label": "Опция 2"
   }
 ]
-const sgConfig = {
-  rootEntity: {
-    label: 'Специальность',
-    i18nKey: `course.speciality`,
-    nameKey: 'full_name',
-    countKey: 'amount_specializations',
-    fetchItems: (query) => {
-      const params = {
-        q: {
-          full_name_i_cont: query,
-        },
-      }
-      return this.fetchSpecialities(query ? params : {})
-    },
-  },
-  nestedEntity: {
-    label: 'Специализация',
-    i18nKey: `course.specialization`,
-    nameKey: 'full_name',
-    notSpecifiedLabel: 'Без специализации',
-    fetchItems: ({ rootEntityId, query }) => {
-      const params = {
-        q: {
-          speciality_id_eq: rootEntityId,
-        },
-      }
-      if (query) {
-        params.q.full_name_i_cont = query
-      }
-      return () => {}
-    },
-  },
-}
 
 export default {
   name: 'HomeView',
@@ -198,7 +165,39 @@ export default {
     return {
       options,
       radioGroupValues,
-      sgConfig,
+      sgConfig: {
+        rootEntity: {
+          label: 'Специальность',
+          i18nKey: `courses.speciality`,
+          nameKey: 'full_name',
+          countKey: 'amount_specializations',
+          fetchItems: (query) => {
+            const params = {
+              q: {
+                full_name_i_cont: query,
+              },
+            }
+            return this.fetchSpecialities(query ? params : {})
+          },
+        },
+        nestedEntity: {
+          label: 'Специализация',
+          i18nKey: `courses.specialization`,
+          nameKey: 'full_name',
+          notSpecifiedLabel: 'Без специализации',
+          fetchItems: ({ rootEntityId, query }) => {
+            const params = {
+              q: {
+                speciality_id_eq: rootEntityId,
+              },
+            }
+            if (query) {
+              params.q.full_name_i_cont = query
+            }
+            return this.fetchSpecializations(params)
+          },
+        },
+      },
       form: {
         input: '',
         checkbox: false,
@@ -221,7 +220,42 @@ export default {
     },
     onCheckboxToggleFnChange(e) {
       this.form.checkboxToggleFn = e.target.checked
-    }
+    },
+    fetchDictionary({ name, params }) {
+      const headers = {
+        'X-Auth-Token': 'secret_token',
+      }
+      return this.$axios
+          .get(`https://develop-synergysoft-lms-catalogs.c4.syndev.ru/${name}`, { params, headers })
+          .then((v) => {
+            return v.data.data
+          })
+          .catch((e) => {
+            console.warn(e.message)
+          })
+    },
+    fetchSpecialities(payload) {
+      const params = {
+        per_page: 10000,
+        ...payload,
+      }
+
+      return this.fetchDictionary({ name: 'custom_specialities', params })
+    },
+    fetchSpecializations(payload) {
+      const params = {
+        per_page: 10000,
+        ...payload,
+      }
+
+      return this.fetchDictionary({ name: 'custom_specializations', params })
+    },
+
+  },
+  created() {
+    this.$store.dispatch('fetchGoods').then((r) => {
+      console.log('fetched:', r)
+    })
   }
 }
 </script>

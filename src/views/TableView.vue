@@ -474,6 +474,13 @@ export default {
       this.sort = sort
       this.fetchData()
     },
+  },
+  created() {
+    this.$axios.post('https://develop-synergysoft-lms-env2.c4.syndev.ru/courses/courses/list')
+        .then(({data, headers}) => {
+          console.log(1, data, headers)
+          this.list = data.data
+        })
   }
 }
 </script>
