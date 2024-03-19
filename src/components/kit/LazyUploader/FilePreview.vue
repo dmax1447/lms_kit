@@ -1,7 +1,7 @@
 <template>
   <div class="file-preview" :style="{width: sizes.width, height: sizes.height}">
     <svg :width="sizes.width" :height="sizes.height">
-      <use :xlink:href="hrefToSvg" />
+      <use :xlink:href="`#${this.getFileExtension}`" />
     </svg>
     <!--    <img v-else-if="isImageFile" :style="sizesWithPixels" :src="fileSrc" alt="" />-->
     <!--    <svg v-else :width="sizes.width" :height="sizes.height" viewBox="0 0 80 80">-->

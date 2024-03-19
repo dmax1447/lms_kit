@@ -6,11 +6,6 @@
     </div>
 
     <h2>Root Route</h2>
-    <div class="wrap">
-      <SInput v-model="val" label="input" placeholder="placeholder"/>
-      <SButton variant="primary" size="small">button</SButton>
-    </div>
-
   </div>
 </template>
 

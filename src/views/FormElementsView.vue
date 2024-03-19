@@ -38,9 +38,9 @@
 
 
           <h2>Local components -> Kit</h2>
-          <fieldset>
-            <LazyUploader class="mb20" v-model="form.lazyUploader" multiple name="lazyUploader" label="LazyUploader"/>
-          </fieldset>
+<!--          <fieldset>-->
+<!--            <LazyUploader class="mb20" v-model="form.lazyUploader" multiple name="lazyUploader" label="LazyUploader"/>-->
+<!--          </fieldset>-->
 
           <h2>Sandbox components  -> Kit</h2>
           <fieldset>
@@ -48,9 +48,9 @@
           </fieldset>
 
           <h2>Front-Libs components</h2>
-          <fieldset>
-            <SelectWithGroups :config="sgConfig"/>
-          </fieldset>
+<!--          <fieldset>-->
+<!--            <SelectWithGroups :config="sgConfig"/>-->
+<!--          </fieldset>-->
 
 
         </form>
@@ -69,8 +69,8 @@
 import {SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader, SMultiselectWithCheckbox, SMultiselectWithReset, SRadioGroup, STinyMCE, } from '@synergy/lms-ui-kit'
 import SelectWithGroups from "@/components/front-libs/SelectWithGroups.vue";
 import BaseUploader from "@/components/sandbox/BaseUploader/BaseUploader.vue";
-import LazyUploader from '@/components/kit/LazyUploader/LazyUploader.vue'
-import Test from '@/components/Test.vue'
+// import LazyUploader from '@/components/kit/LazyUploader/LazyUploader.vue'
+
 
 const mockFiles = [
   {
@@ -156,10 +156,8 @@ export default {
   name: 'HomeView',
   components: {
     SButton, SInput, SCheckbox, SCheckboxFn, SCheckboxToggleFn, SDatePicker, SUploader, SMultiselectWithCheckbox, SMultiselectWithReset, SRadioGroup, STinyMCE,
-    LazyUploader,
     BaseUploader,
     SelectWithGroups,
-    Test
   },
   data() {
     return {

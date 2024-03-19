@@ -10,7 +10,7 @@
     "@popperjs/core": "^2.11.7",
     "@splidejs/vue-splide": "^0.3.5",
     "@synergy/front-libs": "^0.4.5",
-    "@synergy/lms-ui-kit": "file:synergy-lms-ui-kit-3.0.0.tgz",
+    "@synergy/lms-ui-kit": "file:synergy-lms-ui-kit-3.0.3.tgz",
     "@tinymce/tinymce-vue": "^3",
     "axios": "^1.6.7",
     "core-js": "^3.8.3",

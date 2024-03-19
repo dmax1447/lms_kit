@@ -38,6 +38,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/FormElementsView.vue'),
     meta: { title: 'Элементы формы', isNavRoute: true },
   },
+  {
+    path: '/fl',
+    name: 'fl',
+    component: () => import(/* webpackChunkName: "about" */ '../views/FrontLibsView.vue'),
+    meta: { title: 'Front-libs', isNavRoute: true },
+  },
 ]
 
 const router = new VueRouter({
