@@ -36,21 +36,11 @@
             />
           </fieldset>
 
-
-          <h2>Local components -> Kit</h2>
-<!--          <fieldset>-->
-<!--            <LazyUploader class="mb20" v-model="form.lazyUploader" multiple name="lazyUploader" label="LazyUploader"/>-->
-<!--          </fieldset>-->
-
           <h2>Sandbox components  -> Kit</h2>
           <fieldset>
             <BaseUploader v-model="form.baseUploader" multiple name="BaseUplader" label="BaseUploader"/>
           </fieldset>
 
-          <h2>Front-Libs components</h2>
-<!--          <fieldset>-->
-<!--            <SelectWithGroups :config="sgConfig"/>-->
-<!--          </fieldset>-->
 
 
         </form>
@@ -202,7 +192,6 @@ export default {
         checkboxFn: false,
         checkboxToggleFn: false,
         datePicker: '',
-        lazyUploader: mockFiles,
         baseUploader: [],
         uploader: [mockFiles[1]],
         multiselectReset: [options[1]],

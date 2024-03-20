@@ -119,9 +119,9 @@ import '@splidejs/splide/dist/css/splide.min.css'
 
 import VueZoomer from 'vue-zoomer'
 
-import * as pdfjs from 'pdfjs-dist/build/pdf.js'
+// import * as pdfjs from 'pdfjs-dist/build/pdf.js'
 import PDFPageViewer from './components/PDFPageViewer/PDFPageViewer.vue'
-const pdfjsWorker = require('pdfjs-dist/build/pdf.worker.entry')
+// const pdfjsWorker = require('pdfjs-dist/build/pdf.worker.entry')
 
 pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker
 
